@@ -83,6 +83,7 @@ body {
 
 /*Start header css code */
 
+
 .header {
     position: fixed;
     left: 0;
@@ -299,10 +300,6 @@ body {
         left: 43%;
         transform: translate(-50%);
     }
-}
-
-.landing .go-down i {
-
 }
 
 .landing .text-hi p {
@@ -749,7 +746,7 @@ body {
 }
 
 .footer {
-    background: #315876;
+    background: #322b41;
     color: white;
     padding: 30px 10px;
     text-align: center;
@@ -759,5 +756,5 @@ body {
 .footer span a {
     text-decoration: none;
     font-weight: bold;
-    color: #e880c3;
+    color: #0db7d3;
 }
