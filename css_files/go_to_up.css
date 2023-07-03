@@ -12,6 +12,7 @@
     cursor: pointer;
     padding: 15px;
     border-radius: 6px;
+    font-weight: bold;
 }
 #topBtn:hover {
     background-color: #0db6d1;
