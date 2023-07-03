@@ -494,21 +494,22 @@ body {
 
 
 .my-Skills .container {
+    padding-top: 80px;
     display: block;
 }
 
 .skills {
     display: inline-block;
-    padding-top: 80px;
+    padding-top: 45px;
     padding-bottom: 80px;
-    background-color: #ffffff;
+    background-color: #fdfdfd;
     width: 100%;
     max-width: 100%;
 
 }
 
 .my-Skills .container .skills .skill h3 {
-    padding-top: -60px;
+    padding-top:35px;
     font-size: 19px;
     color: #0d1d23;
     font-weight: bold;
@@ -518,6 +519,7 @@ body {
 
 .my-Skills .container .skills .skill h4 {
     font-size: 17px;
+    margin: 0;
 }
 
 .skill-name {
