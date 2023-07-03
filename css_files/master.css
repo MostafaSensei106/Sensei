@@ -618,7 +618,6 @@ body {
 }
 
 /*End language code */
-
 .knowledge {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -641,8 +640,6 @@ body {
 }
 
 /*start art work css code */
-
-
 /*.art-gallery {*/
 .art-gallery .container {
     padding-top: 80px;
@@ -693,9 +690,6 @@ body {
     }
 }
 
-/*end art work css code*/
-
-
 .contact-me {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -732,7 +726,6 @@ body {
     font-size: 18px;
 }
 
-
 .contact-me .info-me .social i {
     margin-left: 15px;
     font-size: 20px;
@@ -747,23 +740,20 @@ body {
     z-index: 99;
     border: none;
     outline: none;
-    background-color: #315876;
+    background-color: #2f5975;
     color: #fdfdfd;
     cursor: pointer;
     padding: 15px;
     border-radius: 6px;
-    font-weight: bold;
 }
 
 #topBtn:hover {
-    background-color: #0db6d1;
+    background-color: #02b7d0;
 }
 
 @media (max-width: 767px) {
     #topBtn {
-        padding: 10px;
-        bottom: 25px;
-        right: 35px
+        background-color: #2f5975;
     }
 }
 
