@@ -1,5 +1,5 @@
+// THIS JAVA SCRIPT CODE BY MOSTAFA MAHMOUD
 var topBtn = document.getElementById("topBtn");
-
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function () {
     scrollFunction()
@@ -40,7 +40,6 @@ $(window).scroll(function () {
     });
 }).scroll();
 var header = document.getElementById("myHeader");
-
 $(document).on('click', '.form', function (e) {
     e.preventDefault();
     $('.ul-2').toggle();
@@ -59,3 +58,22 @@ $('.skill-per').each(function () {
         }
     });
 });
+// JavaScript code
+let slides = document.querySelectorAll(".slide");
+let index = 0;
+
+function showSlide(n) {
+    slides[index].classList.remove("active");
+    index = (n + slides.length) % slides.length;
+    slides[index].classList.add("active");
+}
+
+function nextSlide() {
+    showSlide(index + 1);
+}
+
+function prevSlide() {
+    showSlide(index - 1);
+}
+
+setInterval(nextSlide, 4000); // change slide every 3 seconds

@@ -14,8 +14,6 @@ ul {
 
 body {
     font-family: 'Noto Nastaliq Urdu', serif;
-    color: #1a1b26;
-    background-attachment: fixed;
 }
 
 .container {
@@ -23,7 +21,6 @@ body {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    color: #000000;
 }
 
 @media (max-width: 767px ) {
@@ -57,6 +54,9 @@ body {
     }
 }
 
+/*Start Global Rules*/
+
+/*Start .special-heading css code */
 .special-heading {
     font-family: 'Yuji Syuku', serif;
     color: #0d1d23;
@@ -77,12 +77,8 @@ body {
     color: #0d1d23;
 }
 
-
-/*end global rules*/
-
-
+/*Start .special-heading css code */
 /*Start header css code */
-
 
 .header {
     position: fixed;
@@ -91,11 +87,11 @@ body {
     z-index: 2;
     margin: 0;
     padding: 0;
-    background-color: rgba(29, 40, 42, 0.53);
+    background-color: rgba(26, 27, 38, 0.5);
     backdrop-filter: blur(5px);
 }
 
-/* The sticky class is added to the header with JS when it reaches its scroll position */
+/* The sticky class is added to the header with JS  */
 .sticky {
     position: absolute;
     top: 0;
@@ -168,7 +164,7 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
-    background-color: rgba(29, 40, 42, 0.53);
+    background-color: rgba(26, 27, 38, 0.5);
     backdrop-filter: blur(5px);
     position: absolute;
     right: 0;
@@ -230,16 +226,13 @@ body {
     border-top: 3px solid #0db7d3;
 }
 
+/*End header css code*/
+
 .landing {
+    background-color: rgba(26, 27, 38, 0.4);
     position: relative;
     width: 100vw;
     height: 100vh;
-
-}
-
-.landing {
-    background-image: url("../images/background_imges/mianback.jpg");
-    background-size: cover;
 }
 
 .landing {
@@ -248,6 +241,7 @@ body {
 }
 
 .landing .text-hi {
+    text-shadow: -3px 3px 7px #1a1b26;
     width: 600px;
     max-width: 100%;
     text-align: center;
@@ -258,6 +252,7 @@ body {
 }
 
 .landing .text-hi h1 {
+    text-shadow: #1a1b26;
     font-family: 'Yuji Syuku', serif;
     font-weight: bold;
     font-size: 80px;
@@ -310,13 +305,10 @@ body {
 }
 
 /*End Landing Code*/
-
-
 /*start about code css */
 
 .About {
     padding-top: 85px;
-    background-color: #fdfdfd;
     margin-top: 27px;
 }
 
@@ -329,7 +321,7 @@ body {
 
 @media (max-width: 996px) {
     .About .about-content .text hr {
-        display: none;
+
     }
 
     .About .about-content {
@@ -403,7 +395,9 @@ body {
 
     .About .about-content .text h1 {
         text-align: center;
-        font-size: 18px;
+        font-size: 32px;
+        margin: 0;
+        padding: 0;
         color: #0d1d23;
     }
 
@@ -426,7 +420,6 @@ body {
         }
     }
     .About .about-content .text p {
-        text-align: center;
         font-size: 18px;
         color: #396873;
     }
@@ -493,23 +486,24 @@ body {
 
 .my-Skills {
     padding-top: 85px;
-    background-color: #fdfdfd;
+    /*background-color: #fdfdfd;*/
     margin-top: 27px;
 }
+
 .my-Skills .container {
-    background-color: #fdfdfd;
+    /*background-color: #fdfdfd;*/
 }
 
 .skills {
     display: inline-block;
-    background-color: #fdfdfd;
+    /*background-color: #fdfdfd;*/
     width: 100%;
     max-width: 100%;
 
 }
 
 .my-Skills .container .skills .skill h3 {
-    padding-top:23px;
+    padding-top: 23px;
     font-size: 19px;
     color: #0d1d23;
     font-weight: bold;
@@ -571,11 +565,12 @@ body {
 }
 
 /*Start language code */
-.language{
+.language {
     padding-top: 85px;
     background-color: #fdfdfd;
     margin-top: 27px;
 }
+
 .language .container {
     background-color: #fdfdfd;
 }
@@ -586,13 +581,14 @@ body {
     grid-gap: 20px;
 }
 
-.language .container .h2{
+.language .container .h2 {
     display: inline-block;
 }
 
-.language .container .lp{
+.language .container .lp {
     display: inline-block;
 }
+
 .language .feat {
     padding: 20px;
     text-align: center;
@@ -614,7 +610,7 @@ body {
 }
 
 .language .feat .ar-h3 {
-    font-family: "Noto Nastaliq", serif;
+    font-family: "Noto Nastaliq Urdu";
 }
 
 .language .feat p {
@@ -648,14 +644,15 @@ body {
 
 /*start art work css code */
 /*.art-gallery {*/
-.art-gallery{
+.art-gallery {
     background-color: #fdfdfd;
     margin-top: 15px;
 }
+
 .art-gallery .container {
     padding-top: 86px;
     padding-bottom: 80px;
-   color: #fbfbfb;
+    color: #fbfbfb;
 }
 
 .art-gallery .art-gallery-content .masonry img {
@@ -680,8 +677,8 @@ body {
     width: 100%;
 }
 
-.art-gallery{
-    background-color: #fdfdfd;
+.art-gallery {
+    /*background-color: #fdfdfd;*/
 }
 
 @media (max-width: 1199px) {
@@ -703,12 +700,11 @@ body {
 }
 
 .contact-me {
-    padding-top: 22px;
+    padding-top: 30px;
     padding-bottom: 60px;
     background-color: #fdfdfd;
     margin-top: -75px;
     margin-bottom: -75px;
-
 }
 
 .contact-me .info-me {
