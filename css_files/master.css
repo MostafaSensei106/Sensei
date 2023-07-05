@@ -159,7 +159,7 @@ body {
 }
 
 .header .container .nav .ul-2 {
-    border-radius: 0 0 6px 6px;
+    border-radius: 6px;
     align-items: center;
     text-align: center;
     margin: 0;
@@ -169,7 +169,7 @@ body {
     position: absolute;
     right: 0;
     max-width: 600px;
-    top: calc(100% + 0px);
+    top: calc(100% + 5px);
 }
 
 .header .container .nav .ul-2 li a {
@@ -181,7 +181,6 @@ body {
     font-weight: bold;
     transition: 0.2s;
 }
-
 
 .header .container .nav .ul-2 li a:hover {
     padding-left: 25px;
@@ -746,7 +745,7 @@ body {
 }
 
 .contact-me .info-me .social i:hover {
-    transform: translateY(-5px);
+    transform: translateY(-4px);
     color: #2f5975;
 }
 
@@ -773,6 +772,7 @@ body {
 
 @media (max-width: 767px) {
     #topBtn {
+        padding: 10px;
         background-color: #2f5975;
     }
 }
