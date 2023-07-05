@@ -197,12 +197,18 @@ body {
     z-index: -1;
 }
 
+.header .nav .form:hover {
+    transform: translatey(-3px);
+    color: #2f5975;
+}
+
 .header .nav .form {
     width: 40px;
     height: 30px;
     position: relative;
     margin-left: 30px;
     border-left: 1px solid #0db7d3;
+    transition: 0.2s;
 }
 
 
@@ -736,6 +742,12 @@ body {
     margin-left: 15px;
     font-size: 20px;
     color: #322b42;
+    transition: 0.2s;
+}
+
+.contact-me .info-me .social i:hover {
+    transform: translateY(-5px);
+    color: #2f5975;
 }
 
 #topBtn {
@@ -751,10 +763,12 @@ body {
     cursor: pointer;
     padding: 15px;
     border-radius: 6px;
+    transition: 0.2s;
 }
 
 #topBtn:hover {
     background-color: #02b7d0;
+    transform: translateY(-5px);
 }
 
 @media (max-width: 767px) {
