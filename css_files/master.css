@@ -387,8 +387,6 @@ body {
 
 @media (max-width: 996px) {
     .About .about-content .text {
-        text-align: justify;
-        text-justify: inter-word;
         font-size: 10px;
         font-weight: bolder;
     }
