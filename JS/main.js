@@ -14,23 +14,6 @@ function scrollFunction() {
     }
 }
 
-$(window).scroll(function () {
-    var scrollDistance = $(window).scrollTop();
-    $('.section').each(function (i) {
-        if ($(this).position().top <= scrollDistance) {
-            $('a.active').removeClass('active');
-            if (i < 4) {
-                $('.ul-1').find('a').eq(i).addClass('active');
-            } else if (i > 5) {
-
-                $('.ul-1').find('a').eq(i - 2).addClass('active');
-            }
-            $('.ul-2').find('a').eq(i).addClass('active');
-            // $('a').eq(i+8).addClass('active');
-        }
-    });
-}).scroll();
-
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
     document.body.scrollTop = 0; // For Safari
@@ -46,21 +29,48 @@ $(document).on('click', '.form', function (e) {
     e.preventDefault();
     $('.ul-2').toggle();
 });
-$('.skill-per').each(function () {
-    var $this = $(this);
-    var per = $this.attr('per');
-    $this.css("width", per + '%');
-    $({animatedValue: 0}).animate({animatedValue: per}, {
-        duration: 1000,
-        step: function () {
-            $this.attr('per', Math.floor(this.animatedValue) + '%');
-        },
-        complete: function () {
-            $this.attr('per', Math.floor(this.animatedValue) + '%');
+
+let flag = true;
+$(window).scroll(function () {
+    var scrollDistance = $(window).scrollTop();
+    $('.section').each(function (i) {
+        if ($(this).position().top <= scrollDistance) {
+            $('a.active').removeClass('active');
+            if (i === 3) {
+                skills();
+            }
+            if (i < 4) {
+                $('.ul-1').find('a').eq(i).addClass('active');
+            } else if (i > 5) {
+
+                $('.ul-1').find('a').eq(i - 2).addClass('active');
+            }
+            $('.ul-2').find('a').eq(i).addClass('active');
+            // $('a').eq(i+8).addClass('active');
         }
     });
-});
-// JavaScript code
+}).scroll();
+
+function skills() {
+    if (flag === true) {
+        $('.skill-per').each(function () {
+            var $this = $(this);
+            var per = $this.attr('per');
+            $this.css("width", per + '%');
+            $({animatedValue: 0}).animate({animatedValue: per}, {
+                duration: 1000,
+                step: function () {
+                    $this.attr('per', Math.floor(this.animatedValue) + '%');
+                },
+                complete: function () {
+                    $this.attr('per', Math.floor(this.animatedValue) + '%');
+                }
+            });
+        });
+        flag = false;
+    }
+}
+
 let slides = document.querySelectorAll(".slide");
 let index = 0;
 
