@@ -13,6 +13,7 @@ ul {
 }
 
 body {
+    background-color: #fdfdfd;
     font-family: 'Noto Nastaliq Urdu', serif;
 }
 
@@ -527,13 +528,14 @@ body {
 .skill-bar {
 
     height: 20px;
-    background: #322b42;
+    background: #315977a3;
     border-radius: 6px;
 }
 
 .skill-per {
     height: 20px;
-    background-color: #0db7d3;
+    background: rgb(50, 43, 66);
+    background: linear-gradient(100deg, rgba(50, 43, 66, 1) 0%, rgba(13, 184, 213, 1) 100%);
     border-radius: 6px;
     width: 0;
     transition: 1s linear;
@@ -679,7 +681,7 @@ body {
 }
 
 .art-gallery {
-    /*background-color: #fdfdfd;*/
+    background-color: #fdfdfd;
 }
 
 @media (max-width: 1199px) {
