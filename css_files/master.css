@@ -314,6 +314,7 @@ body {
 /*start about code css */
 
 .About {
+    background-color: #fdfdfd;
     padding-top: 85px;
     margin-top: 27px;
 }
@@ -430,7 +431,7 @@ body {
 /*start services content css code*/
 .services {
     margin-top: 20px;
-    color: #fdfdfd;
+    background-color: #fdfdfd;
     padding-top: 85px;
 }
 
@@ -488,7 +489,7 @@ body {
 
 .my-Skills {
     padding-top: 85px;
-    /*background-color: #fdfdfd;*/
+    background-color: #fdfdfd;
     margin-top: 27px;
 }
 
@@ -535,7 +536,10 @@ body {
 .skill-per {
     height: 20px;
     background: rgb(50, 43, 66);
-    background: linear-gradient(100deg, rgba(50, 43, 66, 1) 0%, rgba(13, 184, 213, 1) 100%);
+    background: -moz-linear-gradient(90deg, rgba(50, 43, 66, 1) 0%, rgba(13, 184, 213, 1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(50, 43, 66, 1) 0%, rgba(13, 184, 213, 1) 100%);
+    background: linear-gradient(90deg, rgba(50, 43, 66, 1) 0%, rgba(13, 184, 213, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#322b42", endColorstr="#0db8d5", GradientType=1);
     border-radius: 6px;
     width: 0;
     transition: 1s linear;
@@ -748,7 +752,7 @@ body {
 
 .contact-me .info-me .social i:hover {
     transform: translateY(-4px);
-    color: #2f5975;
+    color: #02b7d0;
 }
 
 #topBtn {
