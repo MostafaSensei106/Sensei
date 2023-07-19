@@ -725,6 +725,11 @@ body {
     font-weight: 800;
     text-decoration: none;
     color: #2f5975;
+    transition: color 0.2s;
+}
+
+.contact-me .info-me .link-me:hover {
+    color: #0db7d3;
 }
 
 .contact-me .info-me .social {
