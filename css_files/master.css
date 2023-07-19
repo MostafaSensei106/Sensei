@@ -719,20 +719,12 @@ body {
     text-align: center;
 }
 
-.contact-me .info-me .wise {
-    font-size: 27px;
-    font-weight: 800;
-    color: #396873;
-    letter-spacing: -2px;
-    margin-top: 15px;
-}
-
 .contact-me .info-me .link-me {
     display: block;
     font-size: 27px;
     font-weight: 800;
-    color: #2f5975;
     text-decoration: none;
+    color: #2f5975;
 }
 
 .contact-me .info-me .social {
