@@ -456,7 +456,7 @@ body {
 }
 
 .services .services-content .srv i {
-    color: #396873;
+    color: #2f5975;
     flex-basis: 60px;
 }
 
@@ -603,7 +603,7 @@ body {
 
 .language .feat i {
     font-size: 35px;
-    color: #396772;
+    color: #2f5975;
 }
 
 .language .feat h3 {
@@ -643,7 +643,7 @@ body {
 }
 
 .knowledge .container .knowledge-content p {
-    color: #396873;
+    color: #2f5975;
     font-size: 25px;
     margin: 45px 0;
     font-weight: bold;
