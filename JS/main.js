@@ -1,5 +1,10 @@
 // THIS JAVA SCRIPT CODE BY MOSTAFA MAHMOUD
 
+var page_loader = document.getElementById("page-loader");
+window.addEventListener("load", function () {
+    page_loader.style.display = "none"
+})
+
 var topBtn = document.getElementById("topBtn");
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function () {

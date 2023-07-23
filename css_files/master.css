@@ -17,6 +17,16 @@ body {
     font-family: 'Noto Nastaliq Urdu', serif;
 }
 
+#page-loader {
+    background-size: 15%;
+    background: rgba(26, 27, 38, 0.75) url("../images/pre-loder.gif") no-repeat center;
+    backdrop-filter: blur(5px);
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
 .container {
     padding-left: 15px;
     padding-right: 15px;
