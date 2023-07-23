@@ -622,6 +622,10 @@ body {
     font-family: 'Yuji Syuku', serif;
 }
 
+.language .feat .ar-h3 {
+    font-family: "Noto Nastaliq Urdu", serif;
+}
+
 .language .feat p {
     text-align: justify;
     text-justify: inter-word;
