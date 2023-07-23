@@ -251,10 +251,6 @@ body {
     height: 100vh;
 }
 
-.landing {
-    position: relative;
-    height: 100vh;
-}
 
 .landing .text-hi {
     text-shadow: -3px 3px 7px #1a1b26;
