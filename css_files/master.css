@@ -14,7 +14,7 @@ ul {
 
 body {
     background-color: #fdfdfd;
-    font-family: 'Noto Nastaliq Urdu', serif;
+    font-family: 'Yuji Syuku', serif;
 }
 
 #page-loader {
@@ -620,10 +620,6 @@ body {
 
 .language .feat .jp-h3 {
     font-family: 'Yuji Syuku', serif;
-}
-
-.language .feat .ar-h3 {
-    font-family: "Noto Nastaliq Urdu";
 }
 
 .language .feat p {
