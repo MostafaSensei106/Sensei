@@ -115,7 +115,7 @@ body.lb-disable-scrolling {
     width: 64%;
     right: 0;
     float: right;
-    background: url(../images/next.png) right 48% no-repeat;
+    background: url(../images/next.png) right 48% no-repeat ;
     filter: alpha(Opacity=0);
     opacity: 0;
     -webkit-transition: opacity .6s;
