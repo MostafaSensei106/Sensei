@@ -11,11 +11,21 @@ window.onscroll = function () {
     scrollFunction()
 };
 
+
+// var dark = document.getElementById("dark-mode");
+// // When the user scrolls down 20px from the top of the document, show the button
+// window.onscroll = function () {
+//     scrollFunction()
+// };
+
+
 function scrollFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
         topBtn.style.display = "block";
+        // dark.style.display = "block"
     } else {
         topBtn.style.display = "none";
+        // dark.style.display = "none"
     }
 }
 
