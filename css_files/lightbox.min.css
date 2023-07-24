@@ -47,6 +47,7 @@ body.lb-disable-scrolling {
     margin: 0 auto;
     border-radius: 6px;
     background-color: rgba(26, 27, 38, 0.5);
+    -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
 }
 
@@ -102,7 +103,6 @@ body.lb-disable-scrolling {
     filter: alpha(Opacity=0);
     opacity: 0;
     -webkit-transition: opacity .6s;
-    -moz-transition: opacity .6s;
     -o-transition: opacity .6s;
     transition: opacity .6s
 }
@@ -120,7 +120,6 @@ body.lb-disable-scrolling {
     filter: alpha(Opacity=0);
     opacity: 0;
     -webkit-transition: opacity .6s;
-    -moz-transition: opacity .6s;
     -o-transition: opacity .6s;
     transition: opacity .6s
 }
@@ -185,7 +184,6 @@ body.lb-disable-scrolling {
     filter: alpha(Opacity=70);
     opacity: .7;
     -webkit-transition: opacity .2s;
-    -moz-transition: opacity .2s;
     -o-transition: opacity .2s;
     transition: opacity .2s
 }

@@ -25,6 +25,7 @@ body.light {
 }
 
 /* Define the body style for dark theme */
+
 body.dark {
     background-color: #16161e;
     color: #c0caf5;
