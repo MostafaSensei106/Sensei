@@ -321,7 +321,6 @@ body {
 /*start about code css */
 
 .About {
-    background-color: #fdfdfd;
     padding-top: 85px;
     margin-top: 27px;
 }
@@ -438,7 +437,6 @@ body {
 /*start services content css code*/
 .services {
     margin-top: 20px;
-    background-color: #fdfdfd;
     padding-top: 85px;
 }
 
@@ -496,12 +494,7 @@ body {
 
 .my-Skills {
     padding-top: 85px;
-    background-color: #fdfdfd;
     margin-top: 27px;
-}
-
-.my-Skills .container {
-    /*background-color: #fdfdfd;*/
 }
 
 .skills {
@@ -581,12 +574,7 @@ body {
 /*Start language code */
 .language {
     padding-top: 85px;
-    background-color: #fdfdfd;
     margin-top: 27px;
-}
-
-.language .container {
-    background-color: #fdfdfd;
 }
 
 .language .container-1 {
@@ -638,7 +626,6 @@ body {
 /*End language code */
 .knowledge {
     padding-top: 85px;
-    background-color: #fdfdfd;
     margin-top: 27px;
 }
 
@@ -659,14 +646,12 @@ body {
 /*start art work css code */
 /*.art-gallery {*/
 .art-gallery {
-    background-color: #fdfdfd;
     margin-top: 15px;
 }
 
 .art-gallery .container {
     padding-top: 86px;
     padding-bottom: 80px;
-    color: #fbfbfb;
 }
 
 .art-gallery .art-gallery-content .masonry img {
@@ -778,6 +763,21 @@ body {
     background-color: #02b7d0;
     transform: translateY(-5px);
 }
+
+/*#dark-mode {*/
+/*    border: none;*/
+/*    outline: none;*/
+/*    background-color: #2f5975;*/
+/*    color: #fdfdfd;*/
+/*    cursor: pointer;*/
+/*    padding: 13px;*/
+/*    border-radius: 6px;*/
+/*    transition: 0.2s;*/
+/*}*/
+/*#dark-mode:hover {*/
+/*    background-color: #02b7d0;*/
+/*    transform: translateY(-5px);*/
+/*}*/
 
 @media (max-width: 767px) {
     #topBtn {
