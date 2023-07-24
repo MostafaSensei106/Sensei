@@ -676,10 +676,6 @@ body {
     width: 100%;
 }
 
-.art-gallery {
-    background-color: #fdfdfd;
-}
-
 @media (max-width: 1199px) {
     .masonry {
         column-count: 3;
