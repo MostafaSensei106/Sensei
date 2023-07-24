@@ -5,6 +5,46 @@ window.addEventListener("load", function () {
     page_loader.style.display = "none"
 })
 
+// Get the body element
+var body = document.body;
+// Get the button element by its id
+var button = document.getElementById("dark-mode");
+(function () {
+    let onpageLoad = localStorage.getItem("theme") || "";
+
+    if (window.matchMedia && onpageLoad === "") {
+        // Check if the dark-mode Media-Query matches
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            body.classList.toggle("dark");
+            body.classList.toggle("light");
+        } else {
+            button.classList.toggle("light");
+            button.classList.toggle("dark");
+        }
+    } else {
+        body.classList.add(onpageLoad);
+    }
+})();
+
+// Add a click event listener to the button
+button.addEventListener("click", function () {
+
+
+    // Toggle the body class between light and dark
+    body.classList.toggle("light");
+    body.classList.toggle("dark");
+
+    // Toggle the button class between light and dark
+    button.classList.toggle("light");
+    button.classList.toggle("dark");
+    let theme = localStorage.getItem("theme");
+    if (theme && theme === "dark") {
+        localStorage.setItem("theme", "light");
+    } else {
+        localStorage.setItem("theme", "dark");
+    }
+});
+
 var topBtn = document.getElementById("topBtn");
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function () {
@@ -50,7 +90,6 @@ $(window).scroll(function () {
                 $('.ul-1').find('a').eq(i - 2).addClass('active');
             }
             $('.ul-2').find('a').eq(i).addClass('active');
-            // $('a').eq(i+8).addClass('active');
         }
     });
 }).scroll();
@@ -92,4 +131,5 @@ function prevSlide() {
     showSlide(index - 1);
 }
 
-setInterval(nextSlide, 3000); // change slide every 3 second
+setInterval(nextSlide, 3000); // change slide every 3 seconds
+
