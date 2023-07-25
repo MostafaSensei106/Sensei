@@ -132,4 +132,3 @@ function prevSlide() {
 }
 
 setInterval(nextSlide, 3000); // change slide every 3 seconds
-

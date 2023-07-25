@@ -1,4 +1,3 @@
-
 /*THIS CSS CODE BY MOSTAFA MAHMOUD*/
 /*Start Global Rules*/
 * {
@@ -34,7 +33,6 @@ body.dark {
     -o-transition: 0.2s;
     transition: 0.2s;
 }
-
 
 #page-loader {
     background-size: 15%;
@@ -73,6 +71,7 @@ body.dark #page-loader {
     .container {
         width: 750px;
     }
+
 }
 
 /*medium*/
@@ -134,12 +133,14 @@ body.dark .special-heading {
     background-color: rgba(22, 22, 30, 0.5);
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
+    transition: 0.2s;
 }
 
 body.dark .header {
-    background-color: rgba(22, 22, 30, 0.5);
+    background-color: rgba(122, 162, 247, 0.16);;
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
+    transition: 0.2s;
 }
 
 /* The sticky class is added to the header with JS  */
@@ -261,6 +262,10 @@ body.dark .header {
     right: 0;
     max-width: 600px;
     top: calc(100% + 5px);
+}
+
+body.dark .header .container .nav .ul-2 {
+    background-color: rgba(122, 162, 247, 0.16);;
 }
 
 .header .container .nav .ul-2 li a {
@@ -1076,6 +1081,7 @@ body.dark #topBtn:hover {
 }
 
 body.dark #dark-mode {
+
     background-color: #7aa2f7;
     color: #16161e;
 }
