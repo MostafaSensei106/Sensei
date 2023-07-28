@@ -24,16 +24,14 @@ var button = document.getElementById("dark-mode");
     } else {
         body.classList.add(onpageLoad);
     }
+
 })();
 
 // Add a click event listener to the button
 button.addEventListener("click", function () {
-
-
     // Toggle the body class between light and dark
     body.classList.toggle("light");
     body.classList.toggle("dark");
-
     // Toggle the button class between light and dark
     button.classList.toggle("light");
     button.classList.toggle("dark");
@@ -44,7 +42,6 @@ button.addEventListener("click", function () {
         localStorage.setItem("theme", "dark");
     }
 });
-
 var topBtn = document.getElementById("topBtn");
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function () {
@@ -73,7 +70,6 @@ $(document).on('click', '.form', function (e) {
     e.preventDefault();
     $('.ul-2').toggle();
 });
-
 let flag = true;
 $(window).scroll(function () {
     var scrollDistance = $(window).scrollTop();
