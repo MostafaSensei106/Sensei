@@ -119,6 +119,7 @@ body.dark .special-heading + p {
 body.dark .special-heading {
     color: #e0af68;
 }
+
 /*Start .special-heading css code */
 /*Start header css code */
 
@@ -590,6 +591,12 @@ body.dark .About .about-content .text p {
     .About .about-content .text p {
         font-size: 18px;
         color: #396873;
+    }
+}
+
+@media (max-width: 768px) {
+    .About .about-content .text .about-t {
+        text-align: center;
     }
 }
 
