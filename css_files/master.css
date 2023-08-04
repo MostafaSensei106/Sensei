@@ -133,6 +133,8 @@ body.dark .special-heading {
     background-color: rgba(22, 22, 30, 0.5);
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
     transition: 0.2s;
 }
 
@@ -140,6 +142,8 @@ body.dark .header {
     background-color: rgba(122, 162, 247, 0.16);;
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
     transition: 0.2s;
 }
 
@@ -736,8 +740,8 @@ body.dark .my-Skills .container .skills .skill h4 {
 .skill-per {
     height: 20px;
     background: rgb(50, 43, 66);
-    background: -webkit-gradient(linear, left top, right top, from(rgba(50, 43, 66, 1)), to(rgba(13, 184, 213, 1)));
     background: -o-linear-gradient(left, rgba(50, 43, 66, 1) 0%, rgba(13, 184, 213, 1) 100%);
+    background: -webkit-gradient(linear, left top, right top, from(rgba(50, 43, 66, 1)), to(rgba(13, 184, 213, 1)));
     background: linear-gradient(90deg, rgba(50, 43, 66, 1) 0%, rgba(13, 184, 213, 1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#322b42", endColorstr="#0db8d5", GradientType=1);
     border-radius: 6px;
@@ -750,8 +754,8 @@ body.dark .my-Skills .container .skills .skill h4 {
 
 body.dark .skill-per {
     background: rgb(122, 162, 247);
-    background: -webkit-gradient(linear, left top, right top, from(rgba(122, 162, 247, 1)), to(rgba(224, 175, 104, 1)));
     background: -o-linear-gradient(left, rgba(122, 162, 247, 1) 0%, rgba(224, 175, 104, 1) 100%);
+    background: -webkit-gradient(linear, left top, right top, from(rgba(122, 162, 247, 1)), to(rgba(224, 175, 104, 1)));
     background: linear-gradient(90deg, rgba(122, 162, 247, 1) 0%, rgba(224, 175, 104, 1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7aa2f7", endColorstr="#e0af68", GradientType=1);
 }
