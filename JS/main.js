@@ -1,5 +1,6 @@
 // THIS JAVA SCRIPT CODE BY MOSTAFA MAHMOUD
 
+
 var page_loader = document.getElementById("page-loader");
 window.addEventListener("load", function () {
     page_loader.style.display = "none"
@@ -97,11 +98,9 @@ function skills() {
             var per = $this.attr('per');
             $this.css("width", per + '%');
             $({animatedValue: 0}).animate({animatedValue: per}, {
-                duration: 1000,
-                step: function () {
+                duration: 1000, step: function () {
                     $this.attr('per', Math.floor(this.animatedValue) + '%');
-                },
-                complete: function () {
+                }, complete: function () {
                     $this.attr('per', Math.floor(this.animatedValue) + '%');
                 }
             });
@@ -128,3 +127,13 @@ function prevSlide() {
 }
 
 setInterval(nextSlide, 3000); // change slide every 3 seconds
+
+
+if ("serviceWorker" in navigator) {
+    window.addEventListener("load", function () {
+        navigator.serviceWorker
+            .register("/serviceWorker.js")
+            .then(res => console.log("service worker registered"))
+            .catch(err => console.log("service worker not registered", err))
+    })
+}
