@@ -1,7 +1,7 @@
 {
   "name": "Mostafa Sensei",
-  "description": "  Hi I'm Mostafa Mahmoud      a Programmer and a Graphic Designer With More Than Five years of Experience in the field. My proficiency with a variety of tools and programs, including Photoshop, Illustrator, Premiere, InDesign, and After Effects I've done freelance work, charity work, and work for a variety of customers and organizations. I enjoy design and photography and am passionate about producing digital concepts, designs, and artworks for a variety of applications",
-  "short_name": "MH Sensei App",
+  "description": "  Hi I'm Mostafa Mahmoud a Programmer and a Graphic Designer With More Than Five years of Experience in the field. My proficiency with a variety of tools and programs, including Photoshop, Illustrator, Premiere, InDesign, and After Effects I've done freelance work, charity work, and work for a variety of customers and organizations. I enjoy design and photography and am passionate about producing digital concepts, designs, and artworks for a variety of applications",
+  "short_name": "MH Sensei",
   "start_url": "../index.html",
   "display": "standalone",
   "icons": [
