@@ -128,6 +128,12 @@ function prevSlide() {
 
 setInterval(nextSlide, 3000); // change slide every 3 seconds
 
+navigator.serviceWorker.getRegistrations().then(function (registrations) {
+        for (let registration of registrations) {
+            registration.unregister()
+        }
+    }
+)
 
 if ("serviceWorker" in navigator) {
     window.addEventListener("load", function () {
