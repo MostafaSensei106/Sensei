@@ -10,7 +10,7 @@ const CACHE_URLS = [
     "../css_files/normal.css",
     "../css_files/slide.css",
     "/main.js",
-    "/JS/manifest.json",
+    "/JS/lightbox.min.js",
     "../images/logo/My_Logo.webp"
 ];
 
