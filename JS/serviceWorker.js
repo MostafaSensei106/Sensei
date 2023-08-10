@@ -1,20 +1,45 @@
-// On install - caching the application shell
-self.addEventListener('install', function(event) {
-  event.waitUntil(
-    caches.open('sw-cache').then(function(cache) {
-      // cache any static files that make up the application shell
-      return cache.add('../index.html');
-    })
-  );
+
+// Define a cache name
+const CACHE_NAME = "my-cache";
+
+// Define an array of URLs to cache
+const CACHE_URLS = [
+    "../index.html",
+    "../css_files/master.css",
+    "../css_files/master.css",
+    "../css_files/normal.css",
+    "../css_files/slide.css",
+    "/main.js",
+    "/JS/manifest.json",
+    "../images/logo/My_Logo.webp"
+];
+
+// Listen for the installation event
+self.addEventListener("install", event => {
+    // Wait until the promise resolves
+    event.waitUntil(
+        // Open the cache
+        caches.open(CACHE_NAME)
+            .then(cache => {
+                // Add all URLs to the cache
+                return cache.addAll(CACHE_URLS);
+            })
+    );
 });
 
-// On network request
-self.addEventListener('fetch', function(event) {
-  event.respondWith(
-    // Try the cache
-    caches.match(event.request).then(function(response) {
-      //If response found return it, else fetch again
-      return response || fetch(event.request);
-    })
-  );
+// Listen for the fetch event
+self.addEventListener("fetch", event => {
+    // Respond with a custom response
+    event.respondWith(
+        // Check if there is a cached response for the request
+        caches.match(event.request)
+            .then(cachedResponse => {
+                // Return the cached response if there is one
+                if (cachedResponse) {
+                    return cachedResponse;
+                }
+                // Otherwise, make a network request and return the response
+                return fetch(event.request);
+            })
+    );
 });

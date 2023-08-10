@@ -4,11 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0eeee4fa-08b7-40a7-b32a-6a4b63258a39" name="Changes" comment=" v3.7 MH Web Page." />
+    <list default="true" id="0eeee4fa-08b7-40a7-b32a-6a4b63258a39" name="Changes" comment=" v3.7 MH Web Page.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/lightbox.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/lightbox.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/JS/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/serviceWorker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css_files/all.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css_files/all.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css_files/lightbox.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css_files/lightbox.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css_files/master.css" beforeDir="false" afterPath="$PROJECT_DIR$/css_files/master.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css_files/normal.css" beforeDir="false" afterPath="$PROJECT_DIR$/css_files/normal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css_files/slide.css" beforeDir="false" afterPath="$PROJECT_DIR$/css_files/slide.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -16,6 +35,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/JS/main.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/index.html" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -57,7 +79,8 @@
       <workItem from="1691603630145" duration="229000" />
       <workItem from="1691603908669" duration="359000" />
       <workItem from="1691604275908" duration="6627000" />
-      <workItem from="1691611313695" duration="308000" />
+      <workItem from="1691611313695" duration="2086000" />
+      <workItem from="1691663788874" duration="3628000" />
     </task>
     <task id="LOCAL-00001" summary=" v3.7 MH Web Page.">
       <option name="closed" value="true" />
@@ -139,7 +162,23 @@
       <option name="project" value="LOCAL" />
       <updated>1691611557983</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary=" v3.7 MH Web Page.">
+      <option name="closed" value="true" />
+      <created>1691611708887</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1691611708887</updated>
+    </task>
+    <task id="LOCAL-00012" summary=" v3.7 MH Web Page.">
+      <option name="closed" value="true" />
+      <created>1691612139282</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1691612139282</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
