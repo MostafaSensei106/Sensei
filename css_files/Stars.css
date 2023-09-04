@@ -1,0 +1,30 @@
+/* CSS code for the star animation */
+body.dark .star {
+    display: block;
+    position: fixed;
+    width: 2.5px;
+    height: 2.5px;
+    background: rgb(224,175,104);
+    background: -moz-linear-gradient(90deg, rgba(224,175,104,1) 0%, rgba(122,162,246,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(224,175,104,1) 0%, rgba(122,162,246,1) 100%);
+    background: linear-gradient(90deg, rgba(224,175,104,1) 0%, rgba(122,162,246,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e0af68",endColorstr="#7aa2f6",GradientType=1);
+    border-radius: 50%;
+    z-index: -1;
+    animation: twinkle 20s infinite ;
+}
+
+@keyframes twinkle {
+    0% {
+        transform: scale(1);
+        opacity: 0.5;
+    }
+    50% {
+        transform: scale(1.5);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0.5;
+    }
+}
