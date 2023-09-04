@@ -5,20 +5,6 @@
   "short_name": "Mostafa Sensei",
   "start_url": "../index.html",
   "display": "standalone",
-  "shortcuts": [
-    {
-      "name": "Go To Mostafa App",
-      "description": "Go To Sensei App",
-      "url": "../index.html",
-      "icons": [
-        {
-          "src": "../images/icons/icon-192x192.png",
-          "sizes": "192x192",
-          "type": "image/png"
-        }
-      ]
-    }
-  ],
   "icons": [
     {
       "src": "../images/icons/icon-72x72.png",

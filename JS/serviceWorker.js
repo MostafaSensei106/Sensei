@@ -1,7 +1,5 @@
-
 // Define a cache name
 const CACHE_NAME = "my-cache";
-
 // Define an array of URLs to cache
 const CACHE_URLS = [
     "../index.html",
