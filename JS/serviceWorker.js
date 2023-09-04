@@ -9,7 +9,7 @@ const CACHE_URLS = [
     "../css_files/slide.css",
     "/main.js",
     "/JS/lightbox.min.js",
-    "../images/logo/My_Logo.webp"
+    "../images/"
 ];
 
 // Listen for the installation event
