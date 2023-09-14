@@ -5,8 +5,8 @@
   "short_name": "Mostafa Sensei",
   "start_url": "../index.html",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#ffffff",
+  "background_color": "#16161e00",
+  "theme_color": "#16161e00",
   "icons": [
     {
       "src": "../images/icons/icon-72x72.png",
