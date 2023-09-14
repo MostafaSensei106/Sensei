@@ -1,13 +1,11 @@
-// Define a cache name
 const CACHE_NAME = "my-cache";
 // Define an array of URLs to cache
 const CACHE_URLS = [
     "../index.html",
-    "../css_files/master.css",
-    "../css_files/master.css",
-    "../css_files/normal.css",
-    "../css_files/slide.css",
-    "/JS/lightbox.min.js",
+    "../css_files",
+    "lightbox.min.js",
+    "main.js",
+    "../images"
 ];
 
 // Listen for the installation event
