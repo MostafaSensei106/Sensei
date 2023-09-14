@@ -7,9 +7,7 @@ const CACHE_URLS = [
     "../css_files/master.css",
     "../css_files/normal.css",
     "../css_files/slide.css",
-    "/main.js",
     "/JS/lightbox.min.js",
-    "../images/"
 ];
 
 // Listen for the installation event
