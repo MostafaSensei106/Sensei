@@ -2,19 +2,46 @@ var page_loader = document.getElementById("page-loader");
 window.addEventListener("load", function () {
     page_loader.style.display = "none"
 });
-var body = document.body, button = document.getElementById("dark-mode");
-!function () {
-    var t = localStorage.getItem("theme") || "";
-    window.matchMedia && "" === t ? window.matchMedia("(prefers-color-scheme: dark)").matches ? (body.classList.toggle("dark"), body.classList.toggle("light")) : (button.classList.toggle("light"), button.classList.toggle("dark")) : body.classList.add(t)
-}(), button.addEventListener("click", function () {
-    body.classList.toggle("light"), body.classList.toggle("dark"), button.classList.toggle("light"), button.classList.toggle("dark");
-    var t = localStorage.getItem("theme");
-    t && "dark" === t ? localStorage.setItem("theme", "light") : localStorage.setItem("theme", "dark")
+
+// Get references to the body and button elements
+var bodyElement = document.body;
+var darkModeButton = document.getElementById("dark-mode");
+
+// Function to set the initial theme based on user preference or system settings
+(function setInitialTheme() {
+    var currentTheme = localStorage.getItem("theme") || "";
+    if (window.matchMedia && currentTheme === "") {
+        var prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
+        if (prefersDarkScheme) {
+            toggleTheme(bodyElement, "dark", "light");
+        } else {
+            toggleTheme(darkModeButton, "light", "dark");
+        }
+    } else {
+        bodyElement.classList.add(currentTheme);
+    }
+})();
+
+// Event listener for the dark mode button
+darkModeButton.addEventListener("click", function toggleDarkMode() {
+    toggleTheme(bodyElement, "light", "dark");
+    toggleTheme(darkModeButton, "light", "dark");
+
+    var currentTheme = localStorage.getItem("theme");
+    var newTheme = (currentTheme && currentTheme === "dark") ? "light" : "dark";
+    localStorage.setItem("theme", newTheme);
 });
+
+// Helper function to toggle classes
+function toggleTheme(element, class1, class2) {
+    element.classList.toggle(class1);
+    element.classList.toggle(class2);
+}
+
 var topBtn = document.getElementById("topBtn");
+
 function scrollFunction() {
     20 < document.body.scrollTop || 20 < document.documentElement.scrollTop ? topBtn.style.display = "block" : topBtn.style.display = "none"
-
 }
 
 function topFunction() {
@@ -27,30 +54,65 @@ window.onscroll = function () {
     $("a.active").removeClass("active"), $(this).addClass("active")
 });
 var header = document.getElementById("myHeader");
-$(document).on("click", ".form", function (t) {
-    t.preventDefault(), $(".ul-2").toggle()
+$(document).on("click", function (e) {
+    if (!$(e.target).closest('.form').length) {
+        // Clicked outside the form, close .ul-2
+        $(".ul-2").hide();
+    }
 });
-let flag = !0;
+
+$(document).on("click", ".form", function (t) {
+    t.preventDefault();
+    $(".ul-2").toggle();
+});
+
+
+let flag = true;
 
 function skills() {
-    !0 === flag && ($(".skill-per").each(function () {
-        var t = $(this), e = t.attr("per");
-        t.css("width", e + "%"), $({animatedValue: 0}).animate({animatedValue: e}, {
-            duration: 1e3, step: function () {
-                t.attr("per", Math.floor(this.animatedValue) + "%")
-            }, complete: function () {
-                t.attr("per", Math.floor(this.animatedValue) + "%")
-            }
-        })
-    }), flag = !1)
+    if (flag) {
+        $(".skill-per").each(function () {
+            let skillElement = $(this);
+            let percentage = skillElement.attr("per");
+
+            skillElement.css("width", percentage + "%");
+
+            $({animatedValue: 0}).animate({animatedValue: percentage}, {
+                duration: 1000, step: function () {
+                    skillElement.attr("per", Math.floor(this.animatedValue) + "%");
+                }, complete: function () {
+                    skillElement.attr("per", Math.floor(this.animatedValue) + "%");
+                }
+            });
+        });
+
+        flag = false;
+    }
 }
 
+
 $(window).scroll(function () {
-    var e = $(window).scrollTop();
-    $(".section").each(function (t) {
-        $(this).position().top <= e && ($("a.active").removeClass("active"), 3 === t && skills(), t < 4 ? $(".ul-1").find("a").eq(t).addClass("active") : 5 < t && $(".ul-1").find("a").eq(t - 2).addClass("active"), $(".ul-2").find("a").eq(t).addClass("active"))
-    })
+    var scrollTop = $(window).scrollTop();
+
+    $(".section").each(function (index) {
+        if ($(this).position().top <= scrollTop) {
+            $("a.active").removeClass("active");
+
+            if (index === 3) {
+                skills();
+            }
+
+            if (index < 4) {
+                $(".ul-1").find("a").eq(index).addClass("active");
+            } else if (index > 5) {
+                $(".ul-1").find("a").eq(index - 2).addClass("active");
+            }
+
+            $(".ul-2").find("a").eq(index).addClass("active");
+        }
+    });
 }).scroll();
+
 let slides = document.querySelectorAll(".slide"), index = 0;
 
 function showSlide(t) {

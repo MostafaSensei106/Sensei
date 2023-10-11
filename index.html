@@ -31,7 +31,8 @@
     <link href="css_files/all.min.css" rel="stylesheet">
     <link href="css_files/lightbox.min.css" rel="stylesheet">
     <link href="css_files/slide.css" rel="stylesheet">
-    <link href="css_files/master.css" rel="stylesheet">
+    <link href="css_files/masterlight.css" rel="stylesheet">
+    <link href="css_files/masterdark.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu&family=Overlock&family=Yuji+Syuku&display=swap"
@@ -47,7 +48,6 @@
                 <img alt="imy-logo" class="my-logo" loading="lazy" src="images/logo/My_Logo.webp">
             </a>
             <button id="dark-mode" title="Dark Mode btn" role="button">
-                <!-- <i class="fa-solid fa-moon" id="moon"></i>-->
                 <i class="fa-solid fa-sun" id="sun"></i>
             </button>
             <nav class="nav" role="navigation">
@@ -56,8 +56,7 @@
                     <li><a aria-label="Go to About Section" class="nav-link" href="#About" accesskey="About">About</a></li>
                     <li><a aria-label="Go to Services Section" class="nav-link" href="#Services">Services</a></li>
                     <li><a aria-label="Go to Skills Section" class="nav-link" href="#Skills">Skills</a></li>
-                    <li><a aria-label="Go to Art Gallery Section" class="nav-link" href="#Art Gallery">Art Gallery</a>
-                    </li>
+                    <li><a aria-label="Go to Art Gallery Section" class="nav-link" href="#Art Gallery">Art Gallery</a></li>
                     <li><a aria-label="Go to Contact Me Section" class="nav-link" href="#Contact Me">Contact Me</a></li>
                 </ul>
                 <div class="form">
@@ -79,7 +78,7 @@
 </header>
 <div class="landing section" id="Home">
     <div class="text-hi">
-        <h1>歓迎</h1>
+        <h1>ようこそ</h1>
         <p>
             i'm Mostafa Mahmoud <br>
         </p>
@@ -315,6 +314,17 @@
         <p class="lap">Languages</p>
         <div class="container-1">
             <div class="feat">
+                <i class="fa-solid fa-a"></i>
+                <h3 class="ar-h3">العَرَبِيَّةُ</h3>
+                <p>
+                    I speak Arabic at the native level, which implies that I can communicate effectively and properly on
+                    any issue and in any setting. I've been studying Arabic since I was a child, and I'm fluent in both
+                    the standard and dialectal varieties of the language. I can read, write, listen to, and speak Arabic
+                    fluently and confidently. I utilize Arabic on a regular basis for both business and personal
+                    interactions.
+                </p>
+            </div>
+            <div class="feat">
                 <i class="fa-solid fa-flag-usa"></i>
                 <h3>English</h3>
                 <p>
@@ -341,17 +351,6 @@
                     I am familiar with German grammar and can compose complex sentences. I have a broad vocabulary and
                     am able to converse effectively in German. I studied German in secondary school for three years and
                     am fluent in speaking, writing, and reading the language. and speaks German proficiently.
-                </p>
-            </div>
-            <div class="feat">
-                <i class="fa-solid fa-a"></i>
-                <h3 class="ar-h3">العَرَبِيَّةُ</h3>
-                <p>
-                    I speak Arabic at the native level, which implies that I can communicate effectively and properly on
-                    any issue and in any setting. I've been studying Arabic since I was a child, and I'm fluent in both
-                    the standard and dialectal varieties of the language. I can read, write, listen to, and speak Arabic
-                    fluently and confidently. I utilize Arabic on a regular basis for both business and personal
-                    interactions.
                 </p>
             </div>
         </div>
@@ -402,14 +401,6 @@
                         <img alt="image" loading="lazy" src="images/image_display/image_web/hbl14.webp"></a>
                 </div>
                 <div class="mItem">
-                    <a href="images/image_display/image-gogo.jpg" rel="lightbox [ArtWork] ">
-                        <img alt="image" loading="lazy" src="images/image_display/image_web/JOJO.webp"></a>
-                </div>
-                <div class="mItem">
-                    <a href="images/image_display/image-kiki.jpg" rel="lightbox [ArtWork] ">
-                        <img alt="image" loading="lazy" src="images/image_display/image_web/Kawaki-bv.webp"></a>
-                </div>
-                <div class="mItem">
                     <a href="images/image_display/image-moon.jpg" rel="lightbox [ArtWork] ">
                         <img alt="image" loading="lazy" src="images/image_display/image_web/Sensei-Moon.webp">
                     </a>
@@ -420,12 +411,16 @@
                     </a>
                 </div>
                 <div class="mItem">
-                    <a href="images/image_display/image-night.jpg" rel="lightbox [ArtWork] ">
-                        <img alt="image" loading="lazy" src="images/image_display/image_web/Night-g.webp"></a>
+                    <a href="images/image_display/image-gogo.jpg" rel="lightbox [ArtWork] ">
+                        <img alt="image" loading="lazy" src="images/image_display/image_web/JOJO.webp"></a>
                 </div>
                 <div class="mItem">
-                    <a href="images/image_display/image-pizza.jpg" rel="lightbox [ArtWork] ">
-                        <img alt="image" loading="lazy" src="images/image_display/image_web/Pizza_g.webp"></a>
+                    <a href="images/image_display/image-kiki.jpg" rel="lightbox [ArtWork] ">
+                        <img alt="image" loading="lazy" src="images/image_display/image_web/Kawaki-bv.webp"></a>
+                </div>
+                <div class="mItem">
+                    <a href="images/image_display/image-night.jpg" rel="lightbox [ArtWork] ">
+                        <img alt="image" loading="lazy" src="images/image_display/image_web/Night-g.webp"></a>
                 </div>
                 <div class="mItem">
                     <a href="images/image_display/image-ren.jpg" rel="lightbox [ArtWork] ">
@@ -438,6 +433,10 @@
                 <div class="mItem">
                     <a href="images/image_display/image-shinobu.jpg" rel="lightbox [ArtWork] ">
                         <img alt="image" loading="lazy" src="images/image_display/image_web/Sensei.webp"></a>
+                </div>
+                <div class="mItem">
+                    <a href="images/image_display/image-pizza.jpg" rel="lightbox [ArtWork] ">
+                        <img alt="image" loading="lazy" src="images/image_display/image_web/Pizza_g.webp"></a>
                 </div>
                 <div class="mItem">
                     <a href="images/image_display/logo_hg.jpg" rel="lightbox [ArtWork] ">

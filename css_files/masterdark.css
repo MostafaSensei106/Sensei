@@ -1,0 +1,83 @@
+body.dark, body.light {
+    -webkit-transition: .2s;
+    -o-transition: .2s
+}
+
+body.dark {
+    background-color: #16161e;
+    color: #c0caf5;
+    transition: .2s
+}
+
+body.dark #page-loader {
+    background: url("../images/pre-loder-2.gif") center no-repeat rgba(26, 27, 38, .75)
+}
+
+body.dark .About .about-content .text h2, body.dark .contact-me .info-me .link-me, body.dark .contact-me .info-me .social i, body.dark .feat h3, body.dark .my-Skills .container .skills .skill h4, body.dark .services .services-content .srv i, body.dark .services .services-content .text h4, body.dark .special-heading + p {
+    color: #7aa2f7
+}
+
+body.dark .about-content .text h1, body.dark .contact-me .info-me .link-me:hover, body.dark .contact-me .info-me .social i:hover, body.dark .language .feat i, body.dark .my-Skills .container .skills .skill h3, body.dark .services .services-content .text h3, body.dark .special-heading {
+    color: #e0af68
+}
+
+body.dark .header {
+    background-color: rgba(122, 162, 247, .16)
+}
+
+
+body.dark .header .container .nav .ul-2 {
+    background-color: rgba(122, 162, 247, .16);
+    border: .1px solid #7aa2f7
+}
+
+body.dark .header .nav .form {
+    border-left: 2px solid #e0af68
+}
+
+body.dark .header .container .nav .form i:hover {
+    color: #e0af68
+}
+
+
+body.dark .header .nav .ul-2 li a.active, body.dark .header .nav .ul-2 li a:hover {
+    color: #e0af68;
+    border-bottom: 3px solid #7aa2f7
+}
+
+
+body.dark .header .nav .ul-1 li a.active, body.dark .header .nav .ul-1 li a:hover {
+    color: #e0af68;
+    border-top: 3px solid #7aa2f7
+}
+
+body.dark .About .about-content .text p, body.dark .knowledge .container .knowledge-content p, body.dark .language .feat p, body.dark .services .services-content .text p {
+    color: #c0caf5
+}
+
+body.dark .skill-per {
+    background: #7aa2f7;
+    background: -o-linear-gradient(left, #7aa2f7 0, #e0af68 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#7aa2f7), to(#e0af68));
+    background: linear-gradient(90deg, #7aa2f7 0, #e0af68 100%)
+}
+
+
+body.dark .skill-per:before {
+    background-color: #7aa2f7;
+    color: #16161e
+}
+
+body.dark .skill-per:after {
+    background-color: #e0af68
+}
+
+body.dark #dark-mode, body.dark #topBtn {
+    background-color: #7aa2f7;
+    color: #16161e
+}
+
+
+body.dark #dark-mode:hover, body.dark #topBtn:hover {
+    background-color: #e0af68
+}
