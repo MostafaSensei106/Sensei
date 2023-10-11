@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0eeee4fa-08b7-40a7-b32a-6a4b63258a39" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/css_files/masterdark.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css_files/all.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css_files/all.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css_files/master.css" beforeDir="false" afterPath="$PROJECT_DIR$/css_files/masterlight.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/background_images/bac-3.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/background_images/bac-3.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/background_images/back-00.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/background_images/back-00.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/background_images/back-001.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/background_images/back-001.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/background_images/back-1.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/background_images/back-1.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/background_images/back-2.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/background_images/back-2.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/background_images/back-4.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/background_images/back-4.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="0eeee4fa-08b7-40a7-b32a-6a4b63258a39" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -124,7 +111,7 @@
       <workItem from="1696281944949" duration="1300000" />
       <workItem from="1696376199559" duration="214000" />
       <workItem from="1696625701454" duration="86000" />
-      <workItem from="1697058087005" duration="7797000" />
+      <workItem from="1697058087005" duration="8115000" />
     </task>
     <task id="LOCAL-00001" summary=" v3.7 MH Web Page.">
       <option name="closed" value="true" />
@@ -286,7 +273,23 @@
       <option name="project" value="LOCAL" />
       <updated>1696376334459</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="v4.0 MH Web Page.">
+      <option name="closed" value="true" />
+      <created>1697066065874</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1697066065874</updated>
+    </task>
+    <task id="LOCAL-00022" summary="v4.0 MH Web Page.">
+      <option name="closed" value="true" />
+      <created>1697066189138</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1697066189138</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
