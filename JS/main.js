@@ -5,6 +5,12 @@ const darkModeButton = document.getElementById("dark-mode");
 const topBtn = document.getElementById("topBtn");
 let slides = document.querySelectorAll(".slide"), index = 0;
 
+// Helper function to toggle classes
+function toggleTheme(element, class1, class2) {
+    element.classList.toggle(class1);
+    element.classList.toggle(class2);
+}
+
 // Function to set the initial theme based on user preference or system settings
 (function setInitialTheme() {
     const currentTheme = localStorage.getItem("theme") || "";
@@ -30,12 +36,6 @@ darkModeButton.addEventListener("click", function toggleDarkMode() {
     localStorage.setItem("theme", newTheme);
 });
 
-// Helper function to toggle classes
-function toggleTheme(element, class1, class2) {
-    element.classList.toggle(class1);
-    element.classList.toggle(class2);
-}
-
 // Scroll function for top button
 function scrollFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
@@ -54,25 +54,6 @@ window.addEventListener("load", function () {
 window.onscroll = function () {
     scrollFunction();
 };
-
-// Event listener for navigation link click
-$(document).on("click", ".nav-link", function () {
-    $("a.active").removeClass("active");
-    $(this).addClass("active");
-});
-
-// Event listener for click outside form
-$(document).on("click", function (e) {
-    if (!$(e.target).closest('.form').length) {
-        $(".ul-2").hide();
-    }
-});
-
-// Event listener for form click
-$(document).on("click", ".form", function (e) {
-    e.preventDefault();
-    $(".ul-2").toggle();
-});
 
 let flag = true;
 
@@ -98,7 +79,6 @@ function skills() {
 
 $(window).scroll(function () {
     var scrollTop = $(window).scrollTop();
-
     $(".section").each(function (index) {
         if ($(this).position().top <= scrollTop) {
             $("a.active").removeClass("active");
@@ -106,13 +86,11 @@ $(window).scroll(function () {
             if (index === 3) {
                 skills();
             }
-
             if (index < 4) {
                 $(".ul-1").find("a").eq(index).addClass("active");
             } else if (index > 5) {
                 $(".ul-1").find("a").eq(index - 2).addClass("active");
             }
-
             $(".ul-2").find("a").eq(index).addClass("active");
         }
     });
@@ -132,3 +110,21 @@ window.onscroll = function () {
     var scrollPercent = (window.scrollY / (document.body.scrollHeight - window.innerHeight)) * 100;
     document.getElementById('line').style.width = scrollPercent + '%';
 }
+
+// Event listener for navigation link click
+$(document).on("click", ".nav-link", function () {
+    $("a.active").removeClass("active");
+    $(this).addClass("active");
+});
+
+// Event listener for click outside form
+$(document).on("click", function (e) {
+    if (!$(e.target).closest('.form').length) {
+        $(".ul-2").hide();
+    }
+});
+
+$(document).on("click", ".form", function (e) {
+    e.preventDefault();
+    $(".ul-2").toggle();
+});
