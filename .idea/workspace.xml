@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0eeee4fa-08b7-40a7-b32a-6a4b63258a39" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css_files/masterdark.css" beforeDir="false" afterPath="$PROJECT_DIR$/css_files/masterdark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css_files/masterlight.css" beforeDir="false" afterPath="$PROJECT_DIR$/css_files/masterlight.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +45,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/JS/main.js" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/css_files/master.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/css_files/masterdark.css" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/index.html" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -120,6 +123,7 @@
       <workItem from="1697122370561" duration="16000" />
       <workItem from="1697122394550" duration="8000" />
       <workItem from="1697122403115" duration="18000" />
+      <workItem from="1697122422027" duration="3157000" />
     </task>
     <task id="LOCAL-00001" summary=" v3.7 MH Web Page.">
       <option name="closed" value="true" />
@@ -337,7 +341,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697122155156</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="v4.0 MH Web Page.">
+      <option name="closed" value="true" />
+      <created>1697122429190</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1697122429190</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

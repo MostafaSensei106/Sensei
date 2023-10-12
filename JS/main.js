@@ -128,3 +128,8 @@ function prevSlide() {
 }
 
 setInterval(nextSlide, 3e3);
+
+window.onscroll = function() {
+    var scrollPercent = (window.scrollY / (document.body.scrollHeight - window.innerHeight)) * 100;
+    document.getElementById('line').style.width = scrollPercent + '%';
+}
