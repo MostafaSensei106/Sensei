@@ -1,17 +1,15 @@
-var page_loader = document.getElementById("page-loader");
-window.addEventListener("load", function () {
-    page_loader.style.display = "none"
-});
-
-// Get references to the body and button elements
-var bodyElement = document.body;
-var darkModeButton = document.getElementById("dark-mode");
+// Get references to the elements
+const pageLoader = document.getElementById("page-loader");
+const bodyElement = document.body;
+const darkModeButton = document.getElementById("dark-mode");
+const topBtn = document.getElementById("topBtn");
+let slides = document.querySelectorAll(".slide"), index = 0;
 
 // Function to set the initial theme based on user preference or system settings
 (function setInitialTheme() {
-    var currentTheme = localStorage.getItem("theme") || "";
+    const currentTheme = localStorage.getItem("theme") || "";
     if (window.matchMedia && currentTheme === "") {
-        var prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
+        const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
         if (prefersDarkScheme) {
             toggleTheme(bodyElement, "dark", "light");
         } else {
@@ -27,8 +25,8 @@ darkModeButton.addEventListener("click", function toggleDarkMode() {
     toggleTheme(bodyElement, "light", "dark");
     toggleTheme(darkModeButton, "light", "dark");
 
-    var currentTheme = localStorage.getItem("theme");
-    var newTheme = (currentTheme && currentTheme === "dark") ? "light" : "dark";
+    const currentTheme = localStorage.getItem("theme");
+    const newTheme = (currentTheme && currentTheme === "dark") ? "light" : "dark";
     localStorage.setItem("theme", newTheme);
 });
 
@@ -38,34 +36,43 @@ function toggleTheme(element, class1, class2) {
     element.classList.toggle(class2);
 }
 
-var topBtn = document.getElementById("topBtn");
-
+// Scroll function for top button
 function scrollFunction() {
-    20 < document.body.scrollTop || 20 < document.documentElement.scrollTop ? topBtn.style.display = "block" : topBtn.style.display = "none"
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        topBtn.style.display = "block";
+    } else {
+        topBtn.style.display = "none";
+    }
 }
 
-function topFunction() {
-    document.body.scrollTop = 0, document.documentElement.scrollTop = 0
-}
-
-window.onscroll = function () {
-    scrollFunction()
-}, $(document).on("click", ".nav-link", function (t) {
-    $("a.active").removeClass("active"), $(this).addClass("active")
+// Event listener for page load
+window.addEventListener("load", function () {
+    pageLoader.style.display = "none";
 });
-var header = document.getElementById("myHeader");
+
+// Event listener for scroll
+window.onscroll = function () {
+    scrollFunction();
+};
+
+// Event listener for navigation link click
+$(document).on("click", ".nav-link", function () {
+    $("a.active").removeClass("active");
+    $(this).addClass("active");
+});
+
+// Event listener for click outside form
 $(document).on("click", function (e) {
     if (!$(e.target).closest('.form').length) {
-        // Clicked outside the form, close .ul-2
         $(".ul-2").hide();
     }
 });
 
-$(document).on("click", ".form", function (t) {
-    t.preventDefault();
+// Event listener for form click
+$(document).on("click", ".form", function (e) {
+    e.preventDefault();
     $(".ul-2").toggle();
 });
-
 
 let flag = true;
 
@@ -78,9 +85,8 @@ function skills() {
             skillElement.css("width", percentage + "%");
 
             $({animatedValue: 0}).animate({animatedValue: percentage}, {
-                duration: 1000, step: function () {
-                    skillElement.attr("per", Math.floor(this.animatedValue) + "%");
-                }, complete: function () {
+                duration: 1000,
+                complete: function () {
                     skillElement.attr("per", Math.floor(this.animatedValue) + "%");
                 }
             });
@@ -89,7 +95,6 @@ function skills() {
         flag = false;
     }
 }
-
 
 $(window).scroll(function () {
     var scrollTop = $(window).scrollTop();
@@ -113,8 +118,6 @@ $(window).scroll(function () {
     });
 }).scroll();
 
-let slides = document.querySelectorAll(".slide"), index = 0;
-
 function showSlide(t) {
     slides[index].classList.remove("active"), index = (t + slides.length) % slides.length, slides[index].classList.add("active")
 }
@@ -123,13 +126,9 @@ function nextSlide() {
     showSlide(index + 1)
 }
 
-function prevSlide() {
-    showSlide(index - 1)
-}
-
 setInterval(nextSlide, 3e3);
 
-window.onscroll = function() {
+window.onscroll = function () {
     var scrollPercent = (window.scrollY / (document.body.scrollHeight - window.innerHeight)) * 100;
     document.getElementById('line').style.width = scrollPercent + '%';
 }
