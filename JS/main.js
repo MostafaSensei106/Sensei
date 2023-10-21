@@ -2,16 +2,13 @@
 const pageLoader = document.getElementById("page-loader");
 const bodyElement = document.body;
 const darkModeButton = document.getElementById("dark-mode");
-const topBtn = document.getElementById("topBtn");
 let slides = document.querySelectorAll(".slide"), index = 0;
 
-// Helper function to toggle classes
 function toggleTheme(element, class1, class2) {
     element.classList.toggle(class1);
     element.classList.toggle(class2);
 }
 
-// Function to set the initial theme based on user preference or system settings
 (function setInitialTheme() {
     const currentTheme = localStorage.getItem("theme") || "";
     if (window.matchMedia && currentTheme === "") {
@@ -26,7 +23,6 @@ function toggleTheme(element, class1, class2) {
     }
 })();
 
-// Event listener for the dark mode button
 darkModeButton.addEventListener("click", function toggleDarkMode() {
     toggleTheme(bodyElement, "light", "dark");
     toggleTheme(darkModeButton, "light", "dark");
@@ -36,24 +32,14 @@ darkModeButton.addEventListener("click", function toggleDarkMode() {
     localStorage.setItem("theme", newTheme);
 });
 
-// Scroll function for top button
-function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        topBtn.style.display = "block";
-    } else {
-        topBtn.style.display = "none";
-    }
-}
 
-// Event listener for page load
+
+
 window.addEventListener("load", function () {
     pageLoader.style.display = "none";
 });
 
-// Event listener for scroll
-window.onscroll = function () {
-    scrollFunction();
-};
+
 
 let flag = true;
 
@@ -111,13 +97,11 @@ window.onscroll = function () {
     document.getElementById('line').style.width = scrollPercent + '%';
 }
 
-// Event listener for navigation link click
 $(document).on("click", ".nav-link", function () {
     $("a.active").removeClass("active");
     $(this).addClass("active");
 });
 
-// Event listener for click outside form
 $(document).on("click", function (e) {
     if (!$(e.target).closest('.form').length) {
         $(".ul-2").hide();
@@ -128,3 +112,31 @@ $(document).on("click", ".form", function (e) {
     e.preventDefault();
     $(".ul-2").toggle();
 });
+
+window.addEventListener('scroll', function () {
+    var element = document.getElementById('about_text');
+    var position = element.getBoundingClientRect();
+
+    // checking whether fully visible
+    if (position.top >= 0 && position.bottom <= window.innerHeight) {
+        typeWriter(element);
+        window.removeEventListener('scroll', arguments.callee);
+    }
+});
+
+function typeWriter(element) {
+    var text = element.innerHTML;
+    element.innerHTML = '';
+    var i = 0;
+    var speed = 30; // Speed of typing in milliseconds
+
+    function type() {
+        if (i < text.length) {
+            element.innerHTML += text.charAt(i);
+            i++;
+            setTimeout(type, speed);
+        }
+    }
+
+    type();
+}
