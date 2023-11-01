@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0eeee4fa-08b7-40a7-b32a-6a4b63258a39" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/JS/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/JS/manifest.json" afterDir="false" />
-    </list>
+    <list default="true" id="0eeee4fa-08b7-40a7-b32a-6a4b63258a39" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -131,7 +129,7 @@
       <workItem from="1698414746130" duration="423000" />
       <workItem from="1698845661340" duration="134000" />
       <workItem from="1698845802214" duration="27000" />
-      <workItem from="1698851249249" duration="11922000" />
+      <workItem from="1698851249249" duration="12245000" />
     </task>
     <task id="LOCAL-00001" summary=" v3.7 MH Web Page.">
       <option name="closed" value="true" />
@@ -421,7 +419,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698877654613</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="v4.7 MH Web Page.">
+      <option name="closed" value="true" />
+      <created>1698878346281</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1698878346281</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
