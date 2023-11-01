@@ -6,7 +6,7 @@
   "start_url": "../index.html",
   "display": "standalone",
   "background_color": "#fff",
-  "theme_color": "#16161e00",
+  "theme_color": "#16161e",
   "icons": [
     {
       "src": "../images/icons/icon-72x72.png",
@@ -56,5 +56,14 @@
       "type": "image/png",
       "purpose": "any maskable"
     }
+  ],
+  "id": "Mostafa Sensei",
+  "lang": "en",
+  "display_override": [
+    "browser",
+    "fullscreen",
+    "minimal-ui",
+    "standalone",
+    "window-controls-overlay"
   ]
 }

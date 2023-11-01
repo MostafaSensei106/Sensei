@@ -1,16 +1,20 @@
-// This Code  By  Mostafa Mahmoud
+// // This Code  By  Mostafa Mahmoud
+// This Code By Mostafa Mahmoud
 
+// Constants and Variables
 const pageLoader = document.getElementById("page-loader");
 const bodyElement = document.body;
 const darkModeButton = document.getElementById("dark-mode");
 let slides = document.querySelectorAll(".slide"), index = 0;
+let flag = true;
 
+// Functions
 function toggleTheme(element, class1, class2) {
     element.classList.toggle(class1);
     element.classList.toggle(class2);
 }
 
-(function setInitialTheme() {
+function setInitialTheme() {
     const currentTheme = localStorage.getItem("theme") || "";
     if (window.matchMedia && currentTheme === "") {
         const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
@@ -22,24 +26,16 @@ function toggleTheme(element, class1, class2) {
     } else {
         bodyElement.classList.add(currentTheme);
     }
-})();
+}
 
-darkModeButton.addEventListener("click", function toggleDarkMode() {
+function toggleDarkMode() {
     toggleTheme(bodyElement, "light", "dark");
     toggleTheme(darkModeButton, "light", "dark");
 
     const currentTheme = localStorage.getItem("theme");
     const newTheme = (currentTheme && currentTheme === "dark") ? "light" : "dark";
     localStorage.setItem("theme", newTheme);
-});
-
-
-window.addEventListener("load", function () {
-    pageLoader.style.display = "none";
-});
-
-
-let flag = true;
+}
 
 function skills() {
     if (flag) {
@@ -60,6 +56,21 @@ function skills() {
     }
 }
 
+function showSlide(t) {
+    slides[index].classList.remove("active"), index = (t + slides.length) % slides.length, slides[index].classList.add("active")
+}
+
+function nextSlide() {
+    showSlide(index + 1)
+}
+
+// Event Listeners
+darkModeButton.addEventListener("click", toggleDarkMode);
+
+window.addEventListener("load", function () {
+    pageLoader.style.display = "none";
+});
+
 $(window).scroll(function () {
     var scrollTop = $(window).scrollTop();
     $(".section").each(function (index) {
@@ -79,21 +90,6 @@ $(window).scroll(function () {
     });
 }).scroll();
 
-function showSlide(t) {
-    slides[index].classList.remove("active"), index = (t + slides.length) % slides.length, slides[index].classList.add("active")
-}
-
-function nextSlide() {
-    showSlide(index + 1)
-}
-
-setInterval(nextSlide, 3e3);
-
-window.onscroll = function () {
-    var scrollPercent = (window.scrollY / (document.body.scrollHeight - window.innerHeight)) * 100;
-    document.getElementById('line').style.width = scrollPercent + '%';
-}
-
 $(document).on("click", ".nav-link", function () {
     $("a.active").removeClass("active");
     $(this).addClass("active");
@@ -110,30 +106,11 @@ $(document).on("click", ".form", function (e) {
     $(".ul-2").toggle();
 });
 
-window.addEventListener('scroll', function () {
-    var element = document.getElementById('about_text');
-    var position = element.getBoundingClientRect();
+// Initial Calls
+setInitialTheme();
+setInterval(nextSlide, 3e3);
 
-    // checking whether fully visible
-    if (position.top >= 0 && position.bottom <= window.innerHeight) {
-        typeWriter(element);
-        window.removeEventListener('scroll', arguments.callee);
-    }
-});
-
-function typeWriter(element) {
-    var text = element.innerHTML;
-    element.innerHTML = '';
-    var i = 0;
-    var speed = 30;
-
-    function type() {
-        if (i < text.length) {
-            element.innerHTML += text.charAt(i);
-            i++;
-            setTimeout(type, speed);
-        }
-    }
-
-    type();
+window.onscroll = function () {
+    var scrollPercent = (window.scrollY / (document.body.scrollHeight - window.innerHeight)) * 100;
+    document.getElementById('line').style.width = scrollPercent + '%';
 }
