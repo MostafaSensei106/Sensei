@@ -5,142 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0eeee4fa-08b7-40a7-b32a-6a4b63258a39" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/android/android-launchericon-144-144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/android/android-launchericon-192-192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/android/android-launchericon-48-48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/android/android-launchericon-512-512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/android/android-launchericon-72-72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/android/android-launchericon-96-96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/icons.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/ios/100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/ios/1024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/ios/114.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/ios/120.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/ios/128.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/ios/144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/ios/152.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/ios/16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/ios/167.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/ios/180.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/ios/192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/ios/20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/ios/256.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/ios/29.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/ios/32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/ios/40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/ios/50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/ios/512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/ios/57.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/ios/58.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/ios/60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/ios/64.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/ios/72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/ios/76.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/ios/80.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/ios/87.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/LargeTile.scale-100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/LargeTile.scale-125.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/LargeTile.scale-150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/LargeTile.scale-200.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/LargeTile.scale-400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/SmallTile.scale-100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/SmallTile.scale-125.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/SmallTile.scale-150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/SmallTile.scale-200.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/SmallTile.scale-400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/SplashScreen.scale-100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/SplashScreen.scale-125.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/SplashScreen.scale-150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/SplashScreen.scale-200.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/SplashScreen.scale-400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square150x150Logo.scale-100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square150x150Logo.scale-125.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square150x150Logo.scale-150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square150x150Logo.scale-200.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square150x150Logo.scale-400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square44x44Logo.altform-lightunplated_targetsize-16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square44x44Logo.altform-lightunplated_targetsize-20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square44x44Logo.altform-lightunplated_targetsize-24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square44x44Logo.altform-lightunplated_targetsize-256.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square44x44Logo.altform-lightunplated_targetsize-30.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square44x44Logo.altform-lightunplated_targetsize-32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square44x44Logo.altform-lightunplated_targetsize-36.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square44x44Logo.altform-lightunplated_targetsize-40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square44x44Logo.altform-lightunplated_targetsize-44.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square44x44Logo.altform-lightunplated_targetsize-48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square44x44Logo.altform-lightunplated_targetsize-60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square44x44Logo.altform-lightunplated_targetsize-64.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square44x44Logo.altform-lightunplated_targetsize-72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square44x44Logo.altform-lightunplated_targetsize-80.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square44x44Logo.altform-lightunplated_targetsize-96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square44x44Logo.altform-unplated_targetsize-16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square44x44Logo.altform-unplated_targetsize-20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square44x44Logo.altform-unplated_targetsize-24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square44x44Logo.altform-unplated_targetsize-256.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square44x44Logo.altform-unplated_targetsize-30.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square44x44Logo.altform-unplated_targetsize-32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square44x44Logo.altform-unplated_targetsize-36.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square44x44Logo.altform-unplated_targetsize-40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square44x44Logo.altform-unplated_targetsize-44.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square44x44Logo.altform-unplated_targetsize-48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square44x44Logo.altform-unplated_targetsize-60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square44x44Logo.altform-unplated_targetsize-64.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square44x44Logo.altform-unplated_targetsize-72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square44x44Logo.altform-unplated_targetsize-80.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square44x44Logo.altform-unplated_targetsize-96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square44x44Logo.scale-100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square44x44Logo.scale-125.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square44x44Logo.scale-150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square44x44Logo.scale-200.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square44x44Logo.scale-400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square44x44Logo.targetsize-16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square44x44Logo.targetsize-20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square44x44Logo.targetsize-24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square44x44Logo.targetsize-256.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square44x44Logo.targetsize-30.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square44x44Logo.targetsize-32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square44x44Logo.targetsize-36.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square44x44Logo.targetsize-40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square44x44Logo.targetsize-44.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square44x44Logo.targetsize-48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square44x44Logo.targetsize-60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square44x44Logo.targetsize-64.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square44x44Logo.targetsize-72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square44x44Logo.targetsize-80.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Square44x44Logo.targetsize-96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/StoreLogo.scale-100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/StoreLogo.scale-125.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/StoreLogo.scale-150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/StoreLogo.scale-200.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/StoreLogo.scale-400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Wide310x150Logo.scale-100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Wide310x150Logo.scale-125.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Wide310x150Logo.scale-150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Wide310x150Logo.scale-200.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AppImages/windows11/Wide310x150Logo.scale-400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/android-launchericon-144-144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/android-launchericon-192-192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/android-launchericon-48-48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/android-launchericon-512-512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/android-launchericon-72-72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/android-launchericon-96-96.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/JS/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/serviceWorker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css_files/masterdark.css" beforeDir="false" afterPath="$PROJECT_DIR$/css_files/masterdark.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css_files/masterlight.css" beforeDir="false" afterPath="$PROJECT_DIR$/css_files/masterlight.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icon-128x128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icon-144x144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icon-152x152.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icon-192x192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icon-384x384.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icon-512x512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icon-72x72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icon-96x96.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo/My_Logo.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/logo/My_Logo.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pre-loder-2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/pre-loder-2.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pre-loder.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/pre-loder.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -267,7 +132,7 @@
       <workItem from="1698414746130" duration="423000" />
       <workItem from="1698845661340" duration="134000" />
       <workItem from="1698845802214" duration="27000" />
-      <workItem from="1698851249249" duration="10659000" />
+      <workItem from="1698851249249" duration="11411000" />
     </task>
     <task id="LOCAL-00001" summary=" v3.7 MH Web Page.">
       <option name="closed" value="true" />
@@ -533,7 +398,23 @@
       <option name="project" value="LOCAL" />
       <updated>1698845737311</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="v4.7 MH Web Page.">
+      <option name="closed" value="true" />
+      <created>1698876967719</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1698876967719</updated>
+    </task>
+    <task id="LOCAL-00035" summary="v4.7 MH Web Page.">
+      <option name="closed" value="true" />
+      <created>1698877296321</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1698877296321</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -543,6 +424,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value=" v3.7 MH Web Page." />
     <MESSAGE value="v4.0 MH Web Page." />
-    <option name="LAST_COMMIT_MESSAGE" value="v4.0 MH Web Page." />
+    <MESSAGE value="v4.7 MH Web Page." />
+    <option name="LAST_COMMIT_MESSAGE" value="v4.7 MH Web Page." />
   </component>
 </project>
