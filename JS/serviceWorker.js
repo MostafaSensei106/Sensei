@@ -1,42 +1,55 @@
-// Inside sw.js
+// Define the cache name
+const CACHE_NAME = "my-cache";
 
-// Subscribing to the push service
-self.registration.pushManager.subscribe({
-  userVisibleOnly: true,
-  applicationServerKey: urlBase64ToUint8Array('YOUR_PUBLIC_VAPID_KEY_HERE')
-}).then(function(subscription) {
-  console.log('User is subscribed:', subscription);
-}).catch(function(error) {
-  console.error('Failed to subscribe the user: ', error);
+// Define an array of URLs to cache
+const CACHE_URLS = [
+    "../index.html",
+    "../css_files",
+    "lightbox.min.js",
+    "main.js",
+    "../images"
+];
+
+// Listen for the installation event
+self.addEventListener("install", event => {
+    // Wait until the promise resolves
+    event.waitUntil(
+        // Open the cache
+        caches.open(CACHE_NAME)
+            .then(cache => {
+                // Add all URLs to the cache
+                return cache.addAll(CACHE_URLS);
+            })
+    );
 });
 
-// Handling the push event
-self.addEventListener('push', function(event) {
-  console.log('[Service Worker] Push Received.');
-
-  // Customize notification here
-  const title = 'Push Notification';
-  const options = {
-    body: 'This is a message from your service worker!',
-    icon: 'images/icon.png',
-    badge: 'images/badge.png'
-  };
-
-  event.waitUntil(self.registration.showNotification(title, options));
+// Listen for the fetch event
+self.addEventListener("fetch", event => {
+    // Respond with a custom response
+    event.respondWith(
+        // Check if there is a cached response for the request
+        caches.match(event.request)
+            .then(cachedResponse => {
+                // Return the cached response if there is one
+                if (cachedResponse) {
+                    return cachedResponse;
+                }
+                // Otherwise, make a network request and return the response
+                return fetch(event.request);
+            })
+    );
 });
 
-// Utility function for converting base64 string to Uint8Array
-function urlBase64ToUint8Array(base64String) {
-  const padding = '='.repeat((4 - base64String.length % 4) % 4);
-  const base64 = (base64String + padding)
-      .replace(/\-/g, '+')
-      .replace(/_/g, '/');
-
-  const rawData = window.atob(base64);
-  const outputArray = new Uint8Array(rawData.length);
-
-  for (let i = 0; i < rawData.length; ++i) {
-    outputArray[i] = rawData.charCodeAt(i);
-  }
-  return outputArray;
-}
+// Listen for the activate event
+self.addEventListener("activate", event => {
+    // Delete any old caches that are not in use
+    event.waitUntil(
+        caches.keys()
+            .then(keys => {
+                return Promise.all(
+                    keys.filter(key => key !== CACHE_NAME)
+                        .map(key => caches.delete(key))
+                );
+            })
+    );
+});
