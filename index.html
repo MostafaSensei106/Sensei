@@ -18,8 +18,8 @@
     <link rel="manifest" href="JS/AppImages/icons.json">
     <script>
         //if browser support service worker
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('JS/serviceWorker.js');
+        if (typeof navigator.serviceWorker !== 'undefined') {
+            navigator.serviceWorker.register('JS/serviceWorker.js')
         }
     </script>
     <meta name="mobile-web-app-capable" content="yes">

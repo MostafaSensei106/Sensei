@@ -65,5 +65,10 @@
     "minimal-ui",
     "standalone",
     "window-controls-overlay"
+  ],
+  "dir": "auto",
+  "categories": [
+    "social",
+    "utilities"
   ]
 }
