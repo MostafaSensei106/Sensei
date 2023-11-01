@@ -1,6 +1,4 @@
-// Define the cache name
 const CACHE_NAME = "my-cache";
-
 // Define an array of URLs to cache
 const CACHE_URLS = [
     "../index.html",
@@ -36,20 +34,6 @@ self.addEventListener("fetch", event => {
                 }
                 // Otherwise, make a network request and return the response
                 return fetch(event.request);
-            })
-    );
-});
-
-// Listen for the activate event
-self.addEventListener("activate", event => {
-    // Delete any old caches that are not in use
-    event.waitUntil(
-        caches.keys()
-            .then(keys => {
-                return Promise.all(
-                    keys.filter(key => key !== CACHE_NAME)
-                        .map(key => caches.delete(key))
-                );
             })
     );
 });
