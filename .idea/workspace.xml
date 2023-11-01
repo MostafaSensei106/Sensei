@@ -7,9 +7,6 @@
     <list default="true" id="0eeee4fa-08b7-40a7-b32a-6a4b63258a39" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/serviceWorker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css_files/masterdark.css" beforeDir="false" afterPath="$PROJECT_DIR$/css_files/masterdark.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css_files/masterlight.css" beforeDir="false" afterPath="$PROJECT_DIR$/css_files/masterlight.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -125,7 +122,14 @@
       <workItem from="1697122394550" duration="8000" />
       <workItem from="1697122403115" duration="18000" />
       <workItem from="1697122422027" duration="8351000" />
-      <workItem from="1697839717084" duration="5651000" />
+      <workItem from="1697839717084" duration="6263000" />
+      <workItem from="1698026129718" duration="95000" />
+      <workItem from="1698030938871" duration="51000" />
+      <workItem from="1698031271978" duration="705000" />
+      <workItem from="1698075512639" duration="236000" />
+      <workItem from="1698078214291" duration="39000" />
+      <workItem from="1698248217432" duration="775000" />
+      <workItem from="1698414746130" duration="423000" />
     </task>
     <task id="LOCAL-00001" summary=" v3.7 MH Web Page.">
       <option name="closed" value="true" />
@@ -375,7 +379,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697130023822</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="v4.0 MH Web Page.">
+      <option name="closed" value="true" />
+      <created>1697853539818</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1697853539819</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

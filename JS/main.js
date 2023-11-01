@@ -1,4 +1,5 @@
-// Get references to the elements
+// This Code  By  Mostafa Mahmoud
+
 const pageLoader = document.getElementById("page-loader");
 const bodyElement = document.body;
 const darkModeButton = document.getElementById("dark-mode");
@@ -33,12 +34,9 @@ darkModeButton.addEventListener("click", function toggleDarkMode() {
 });
 
 
-
-
 window.addEventListener("load", function () {
     pageLoader.style.display = "none";
 });
-
 
 
 let flag = true;
@@ -52,8 +50,7 @@ function skills() {
             skillElement.css("width", percentage + "%");
 
             $({animatedValue: 0}).animate({animatedValue: percentage}, {
-                duration: 1000,
-                complete: function () {
+                duration: 1000, complete: function () {
                     skillElement.attr("per", Math.floor(this.animatedValue) + "%");
                 }
             });
@@ -128,7 +125,7 @@ function typeWriter(element) {
     var text = element.innerHTML;
     element.innerHTML = '';
     var i = 0;
-    var speed = 30; // Speed of typing in milliseconds
+    var speed = 30;
 
     function type() {
         if (i < text.length) {
