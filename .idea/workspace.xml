@@ -5,7 +5,99 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0eeee4fa-08b7-40a7-b32a-6a4b63258a39" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/JS/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/JS/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/serviceWorker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/1024.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/114.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/120.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/128.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/152.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightbox.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/LargeTile.scale-100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/LargeTile.scale-125.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/LargeTile.scale-150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/LargeTile.scale-200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/LargeTile.scale-400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/SmallTile.scale-100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/SmallTile.scale-125.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/SmallTile.scale-150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/SmallTile.scale-200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/SmallTile.scale-400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/SplashScreen.scale-100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/SplashScreen.scale-125.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/SplashScreen.scale-150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/SplashScreen.scale-200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/SplashScreen.scale-400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square150x150Logo.scale-100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square150x150Logo.scale-125.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square150x150Logo.scale-150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square150x150Logo.scale-200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square150x150Logo.scale-400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square44x44Logo.altform-lightunplated_targetsize-16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square44x44Logo.altform-lightunplated_targetsize-20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square44x44Logo.altform-lightunplated_targetsize-24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square44x44Logo.altform-lightunplated_targetsize-256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square44x44Logo.altform-lightunplated_targetsize-30.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square44x44Logo.altform-lightunplated_targetsize-32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square44x44Logo.altform-lightunplated_targetsize-36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square44x44Logo.altform-lightunplated_targetsize-40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square44x44Logo.altform-lightunplated_targetsize-44.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square44x44Logo.altform-lightunplated_targetsize-48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square44x44Logo.altform-lightunplated_targetsize-60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square44x44Logo.altform-lightunplated_targetsize-64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square44x44Logo.altform-lightunplated_targetsize-72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square44x44Logo.altform-lightunplated_targetsize-80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square44x44Logo.altform-lightunplated_targetsize-96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square44x44Logo.altform-unplated_targetsize-16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square44x44Logo.altform-unplated_targetsize-20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square44x44Logo.altform-unplated_targetsize-24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square44x44Logo.altform-unplated_targetsize-256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square44x44Logo.altform-unplated_targetsize-30.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square44x44Logo.altform-unplated_targetsize-32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square44x44Logo.altform-unplated_targetsize-36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square44x44Logo.altform-unplated_targetsize-40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square44x44Logo.altform-unplated_targetsize-44.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square44x44Logo.altform-unplated_targetsize-48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square44x44Logo.altform-unplated_targetsize-60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square44x44Logo.altform-unplated_targetsize-64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square44x44Logo.altform-unplated_targetsize-72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square44x44Logo.altform-unplated_targetsize-80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square44x44Logo.altform-unplated_targetsize-96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square44x44Logo.scale-100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square44x44Logo.scale-125.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square44x44Logo.scale-150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square44x44Logo.scale-200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square44x44Logo.scale-400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square44x44Logo.targetsize-16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square44x44Logo.targetsize-20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square44x44Logo.targetsize-24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square44x44Logo.targetsize-256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square44x44Logo.targetsize-30.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square44x44Logo.targetsize-32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square44x44Logo.targetsize-36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square44x44Logo.targetsize-40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square44x44Logo.targetsize-44.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square44x44Logo.targetsize-48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square44x44Logo.targetsize-60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square44x44Logo.targetsize-64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square44x44Logo.targetsize-72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square44x44Logo.targetsize-80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Square44x44Logo.targetsize-96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/StoreLogo.scale-100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/StoreLogo.scale-125.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/StoreLogo.scale-150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/StoreLogo.scale-200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/StoreLogo.scale-400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Wide310x150Logo.scale-100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Wide310x150Logo.scale-125.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Wide310x150Logo.scale-150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Wide310x150Logo.scale-200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows11/Wide310x150Logo.scale-400.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +113,10 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -57,6 +151,7 @@
 }</component>
   <component name="ProjectId" id="2Tl31a7YsWWnvDjOaqXyxXiPeTT" />
   <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -133,23 +228,7 @@
       <workItem from="1698845802214" duration="27000" />
       <workItem from="1698851249249" duration="13871000" />
       <workItem from="1699384562999" duration="1998000" />
-      <workItem from="1699386571427" duration="1165000" />
-    </task>
-    <task id="LOCAL-00001" summary=" v3.7 MH Web Page.">
-      <option name="closed" value="true" />
-      <created>1691606247632</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1691606247632</updated>
-    </task>
-    <task id="LOCAL-00002" summary=" v3.7 MH Web Page.">
-      <option name="closed" value="true" />
-      <created>1691606655656</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1691606655656</updated>
+      <workItem from="1699386571427" duration="2352000" />
     </task>
     <task id="LOCAL-00003" summary=" v3.7 MH Web Page.">
       <option name="closed" value="true" />
@@ -519,7 +598,31 @@
       <option name="project" value="LOCAL" />
       <updated>1699387598889</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="v4.7 MH Web Page.">
+      <option name="closed" value="true" />
+      <created>1699387739221</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1699387739221</updated>
+    </task>
+    <task id="LOCAL-00050" summary="v4.7 MH Web Page.">
+      <option name="closed" value="true" />
+      <created>1699387747355</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1699387747355</updated>
+    </task>
+    <task id="LOCAL-00051" summary="v4.7 MH Web Page.">
+      <option name="closed" value="true" />
+      <created>1699388792774</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1699388792774</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
