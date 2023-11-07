@@ -5,8 +5,8 @@
   "short_name": "Mostafa Sensei",
   "start_url": "../index.html",
   "display": "standalone",
-  "background_color": "#FEF2E2",
-  "theme_color": "#FEF2E2",
+  "background_color": "#fef2e2",
+  "theme_color": "#fef2e2",
   "icons": [
     {
       "src": "../images/icons/android-launchericon-72-72.png",
@@ -456,5 +456,36 @@
       "src": "ios/1024.png",
       "sizes": "1024x1024"
     }
-  ]
+  ],
+  "id": "Mostafa Sensei 106",
+  "lang": "en",
+  "orientation": "natural",
+  "display_override": [
+    "browser",
+    "minimal-ui",
+    "fullscreen",
+    "window-controls-overlay",
+    "standalone"
+  ],
+  "shortcuts": [
+    {
+      "name": "Home Page",
+      "url": "../index.html",
+      "description": "Mostafa Sensei Home page"
+    }
+  ],
+  "categories": [
+    "photo",
+    "social"
+  ],
+  "share_target": {
+    "method": "GET",
+    "action": "Home Page",
+    "params": {
+      "url": "../index.html",
+      "title": "Mostafa Sensei",
+      "text": "Personal website ",
+      "files": []
+    }
+  }
 }
