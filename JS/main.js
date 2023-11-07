@@ -1,5 +1,5 @@
 // // This Code  By  Mostafa Mahmoud
-// This Code By Mostafa Mahmoud
+
 
 // Constants and Variables
 const pageLoader = document.getElementById("page-loader");
@@ -57,7 +57,8 @@ function skills() {
 }
 
 function showSlide(t) {
-    slides[index].classList.remove("active"), index = (t + slides.length) % slides.length, slides[index].classList.add("active")
+    slides[index].classList.remove("active"), index = (t + slides.length) % slides.length,
+        slides[index].classList.add("active")
 }
 
 function nextSlide() {
