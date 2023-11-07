@@ -5,8 +5,8 @@
   "short_name": "Mostafa Sensei",
   "start_url": "../index.html",
   "display": "standalone",
-  "background_color": "#fff",
-  "theme_color": "#16161e00",
+  "background_color": "#FEF2E2",
+  "theme_color": "#FEF2E2",
   "icons": [
     {
       "src": "../images/icons/android-launchericon-72-72.png",
