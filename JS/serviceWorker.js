@@ -1,4 +1,3 @@
-
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-sw.js');
 
 const CACHE = "my-cache";
@@ -12,10 +11,8 @@ self.addEventListener("message", (event) => {
 });
 
 self.addEventListener('install', async (event) => {
-    event.waitUntil(
-        caches.open(CACHE)
-            .then((cache) => cache.add(offlineFallbackPage))
-    );
+    event.waitUntil(caches.open(CACHE)
+        .then((cache) => cache.add(offlineFallbackPage)));
 });
 
 if (workbox.navigationPreload.isSupported()) {
