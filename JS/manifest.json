@@ -460,13 +460,6 @@
   "id": "Mostafa Sensei 106",
   "lang": "en",
   "orientation": "natural",
-  "display_override": [
-    "browser",
-    "minimal-ui",
-    "fullscreen",
-    "window-controls-overlay",
-    "standalone"
-  ],
   "shortcuts": [
     {
       "name": "Home Page",
@@ -474,7 +467,6 @@
       "description": "Mostafa Sensei Home page"
     }
   ],
-
   "share_target": {
     "method": "GET",
     "action": "Home Page"
