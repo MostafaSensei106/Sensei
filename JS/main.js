@@ -36,20 +36,19 @@ function toggleDarkMode() {
 
 function skills() {
     if (flag) {
-        let skillElements = document.querySelectorAll(".skill-per");
-        skillElements.forEach(function (skillElement) {
-            let percentage = skillElement.getAttribute("per");
-            skillElement.style.width = percentage + "%";
-            let animatedValue = 0;
-            let interval = setInterval(function () {
-                if (animatedValue >= percentage) {
-                    clearInterval(interval);
-                } else {
-                    animatedValue++;
-                    skillElement.setAttribute("per", animatedValue + "%");
+        $(".skill-per").each(function () {
+            let skillElement = $(this);
+            let percentage = skillElement.attr("per");
+
+            skillElement.css("width", percentage + "%");
+
+            $({animatedValue: 0}).animate({animatedValue: percentage}, {
+                duration: 1000, complete: function () {
+                    skillElement.attr("per", Math.floor(this.animatedValue) + "%");
                 }
-            }, 10);
+            });
         });
+
         flag = false;
     }
 }
@@ -71,55 +70,44 @@ window.addEventListener("load", function () {
     pageLoader.style.display = "none";
 });
 
-window.onscroll = function () {
-    var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-    let sections = document.querySelectorAll(".section");
-    sections.forEach(function (section, index) {
-        if (section.offsetTop <= scrollTop) {
-            let activeLink = document.querySelector("a.active");
-            if (activeLink) {
-                activeLink.classList.remove("active");
-            }
+$(window).scroll(function () {
+    var scrollTop = $(window).scrollTop();
+    $(".section").each(function (index) {
+        if ($(this).position().top <= scrollTop) {
+            $("a.active").removeClass("active");
+
             if (index === 3) {
                 skills();
             }
             if (index < 4) {
-                document.querySelector(".ul-1").querySelectorAll("a")[index].classList.add("active");
+                $(".ul-1").find("a").eq(index).addClass("active");
             } else if (index > 5) {
-                document.querySelector(".ul-1").querySelectorAll("a")[index - 2].classList.add("active");
+                $(".ul-1").find("a").eq(index - 2).addClass("active");
             }
-            document.querySelector(".ul-2").querySelectorAll("a")[index].classList.add("active");
+            $(".ul-2").find("a").eq(index).addClass("active");
         }
     });
-};
+}).scroll();
 
-let navLinks = document.querySelectorAll(".nav-link");
-navLinks.forEach(function (navLink) {
-    navLink.addEventListener("click", function () {
-        let activeLink = document.querySelector("a.active");
-        if (activeLink) {
-            activeLink.classList.remove("active");
-        }
-        this.classList.add("active");
-    });
+$(document).on("click", ".nav-link", function () {
+    $("a.active").removeClass("active");
+    $(this).addClass("active");
 });
 
-document.addEventListener("click", function (e) {
-    if (!e.target.closest('.form')) {
-        document.querySelector(".ul-2").style.display = "none";
+$(document).on("click", function (e) {
+    if (!$(e.target).closest('.form').length) {
+        $(".ul-2").hide();
     }
 });
 
-let formElement = document.querySelector(".form");
-formElement.addEventListener("click", function (e) {
+$(document).on("click", ".form", function (e) {
     e.preventDefault();
-    let ul2Element = document.querySelector(".ul-2");
-    ul2Element.style.display = ul2Element.style.display === "none" ? "block" : "none";
+    $(".ul-2").toggle();
 });
 
 // Initial Calls
 setInitialTheme();
-setInterval(nextSlide, 3000);
+setInterval(nextSlide, 3e3);
 
 window.onscroll = function () {
     var scrollPercent = (window.scrollY / (document.body.scrollHeight - window.innerHeight)) * 100;
