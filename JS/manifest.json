@@ -466,9 +466,5 @@
       "url": "../index.html",
       "description": "Mostafa Sensei Home page"
     }
-  ],
-  "share_target": {
-    "method": "GET",
-    "action": "Home Page"
-  }
+  ]
 }
