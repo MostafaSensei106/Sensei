@@ -474,18 +474,9 @@
       "description": "Mostafa Sensei Home page"
     }
   ],
-  "categories": [
-    "photo",
-    "social"
-  ],
+
   "share_target": {
     "method": "GET",
-    "action": "Home Page",
-    "params": {
-      "url": "../index.html",
-      "title": "Mostafa Sensei",
-      "text": "Personal website ",
-      "files": []
-    }
+    "action": "Home Page"
   }
 }
