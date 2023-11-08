@@ -1,39 +1,55 @@
-const CACHE_NAME = "my-cache";
-// Define an array of URLs to cache
-const CACHE_URLS = [
-    "../index.html",
-    "../css_files",
-    "lightbox.min.js",
-    "main.js",
-    "../images"
-];
+// Import the Workbox library
+importScripts('https://storage.googleapis.com/workbox-cdn/releases/6.1.5/workbox-sw.js');
 
-// Listen for the installation event
-self.addEventListener("install", event => {
-    // Wait until the promise resolves
-    event.waitUntil(
-        // Open the cache
-        caches.open(CACHE_NAME)
-            .then(cache => {
-                // Add all URLs to the cache
-                return cache.addAll(CACHE_URLS);
-            })
-    );
-});
+if (workbox) {
+    console.log(`Workbox is loaded`);
 
-// Listen for the fetch event
-self.addEventListener("fetch", event => {
-    // Respond with a custom response
-    event.respondWith(
-        // Check if there is a cached response for the request
-        caches.match(event.request)
-            .then(cachedResponse => {
-                // Return the cached response if there is one
-                if (cachedResponse) {
-                    return cachedResponse;
-                }
-                // Otherwise, make a network request and return the response
-                return fetch(event.request);
-            })
+    // Precache files
+    workbox.precaching.precacheAndRoute([
+        "../index.html",
+        "../css_files",
+        "lightbox.min.js",
+        "main.js",
+        "../images"
+    ]);
+
+    // Use a stale-while-revalidate strategy for all other requests.
+    workbox.routing.setDefaultHandler(
+        new workbox.strategies.StaleWhileRevalidate()
     );
-});
+
+    // Add a fallback for offline navigation
+    workbox.routing.setCatchHandler(({event}) => {
+        switch (event.request.destination) {
+            case 'document':
+                return caches.match('../index.html');
+                break;
+            default:
+                return Response.error();
+        }
+    });
+
+    // Add background sync
+    const bgSyncPlugin = new workbox.backgroundSync.BackgroundSyncPlugin('myQueueName', {
+        maxRetentionTime: 24 * 60
+    });
+
+    workbox.routing.registerRoute(
+        /\/api\/.*\/*.json/,
+        new workbox.strategies.NetworkOnly({
+            plugins: [bgSyncPlugin]
+        }),
+        'POST'
+    );
+
+    // Add push notifications
+    self.addEventListener('push', (event) => {
+        const title = 'Notification';
+        const options = {
+            body: event.data.text()
+        };
+        event.waitUntil(self.registration.showNotification(title, options));
+    });
+} else {
+    console.log(`Workbox didn't load`);
+}

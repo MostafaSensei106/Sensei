@@ -15,10 +15,17 @@
     <title>Mostafa Sensei</title>
     <link rel="manifest" href="JS/manifest.json">
     <script>
-        //if browser support service worker
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('JS/serviceWorker.js');
-        }
+        window.addEventListener('load', () => {
+            // Is service worker available?
+            if ('serviceWorker' in navigator) {
+                navigator.serviceWorker.register('JS/serviceWorker.js').then(() => {
+                    console.log('Service worker registered!');
+                }).catch((error) => {
+                    console.warn('Error registering service worker:');
+                    console.warn(error);
+                });
+            }
+        });
     </script>
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
