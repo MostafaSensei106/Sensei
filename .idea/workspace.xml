@@ -5,7 +5,65 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0eeee4fa-08b7-40a7-b32a-6a4b63258a39" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/JS/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/serviceWorker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/image_display/Demon_Slayer.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/image_display/Free Palestine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/image_display/Kawaki_2Bv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/image_display/MHlogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/image_display/Moon_sord.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/image_display/Moon_wt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/image_display/Mostafa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/image_display/Pizza_G.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/image_display/Sarada_art.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/image_display/gojo_sensei.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/image_display/image_web/Demon_Slayer.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/image_display/image_web/Free Palestine.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/image_display/image_web/Kawaki_2Bv.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/image_display/image_web/Moon_sord.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/image_display/image_web/Moon_wt.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/image_display/image_web/Mostafa.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/image_display/image_web/Sarada_art.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/image_display/image_web/gojo_sensei.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/image_display/image_web/kawaki.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/image_display/image_web/logo_hg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/image_display/image_web/red_g.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/image_display/image_web/rev_brt.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/image_display/kawaki.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/image_display/maki.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/image_display/mh44.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/image_display/red_g.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/image_display/rev_brt.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/image_display/Kawaki 2Bv.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/image_display/MH45.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/image_display/[000204]_optimized.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/image_display/image-gogo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/image_display/image-kiki.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/image_display/image-moon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/image_display/image-mostafa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/image_display/image-night.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/image_display/image-pizza.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/image_display/image-quine.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/image_display/image-ren.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/image_display/image-root.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/image_display/image-shinobu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/image_display/image_web/Hema-chan.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/image_display/image_web/Hema-chan.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/image_display/image_web/JOJO.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/image_display/image_web/Kawaki-bv.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/image_display/image_web/MH43.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/image_display/image_web/MH44.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/image_display/image_web/MH44.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/image_display/image_web/MH444.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/image_display/image_web/MH444.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/image_display/image_web/MH45.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/image_display/image_web/MH45.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/image_display/image_web/MHlogo.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/image_display/image_web/MHlogo.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/image_display/image_web/Night-g.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/image_display/image_web/Pizza_g.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/image_display/image_web/Pizza_g.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/image_display/image_web/Sensei-Moon.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/image_display/image_web/Sensei.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/image_display/image_web/hbl14.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/image_display/image_web/kawaki-2bv.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/image_display/image_web/maki.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/image_display/image_web/maki.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/image_display/image_web/root.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/image_display/image_web/sakura.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/image_display/image_web/sakura.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,15 +200,7 @@
       <workItem from="1698851249249" duration="13871000" />
       <workItem from="1699384562999" duration="1998000" />
       <workItem from="1699386571427" duration="8653000" />
-      <workItem from="1699465150467" duration="8146000" />
-    </task>
-    <task id="LOCAL-00024" summary="v4.0 MH Web Page.">
-      <option name="closed" value="true" />
-      <created>1697067010297</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1697067010297</updated>
+      <workItem from="1699465150467" duration="10701000" />
     </task>
     <task id="LOCAL-00025" summary="v4.0 MH Web Page.">
       <option name="closed" value="true" />
@@ -536,7 +586,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699475671766</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="v4.7 MH Web Page.">
+      <option name="closed" value="true" />
+      <created>1699476021006</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1699476021006</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
