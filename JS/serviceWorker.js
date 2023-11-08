@@ -4,13 +4,12 @@ importScripts('https://storage.googleapis.com/workbox-cdn/releases/6.1.5/workbox
 if (workbox) {
     console.log(`Workbox is loaded`);
 
-    // Cash files
+    // Cache files
     workbox.precaching.precacheAndRoute([
         "../index.html",
-        "../css_files",
-        "lightbox.min.js",
-        "main.js",
-        "../images"
+        "../css_files/*.css",
+        "*.js",
+        "../images/*"
     ]);
 
     // Use a stale-while-revalidate strategy for all other requests.
