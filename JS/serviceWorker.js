@@ -1,52 +1,39 @@
-// Constants
 const CACHE_NAME = "my-cache";
-const CACHE_URLS = ["../index.html", "../css_files", "lightbox.min.js", "main.js", "../images"];
+// Define an array of URLs to cache
+const CACHE_URLS = [
+    "../index.html",
+    "../css_files",
+    "lightbox.min.js",
+    "main.js",
+    "../images"
+];
 
-// Installation event
+// Listen for the installation event
 self.addEventListener("install", event => {
+    // Wait until the promise resolves
     event.waitUntil(
-        caches.open(CACHE_NAME).then(cache => cache.addAll(CACHE_URLS))
+        // Open the cache
+        caches.open(CACHE_NAME)
+            .then(cache => {
+                // Add all URLs to the cache
+                return cache.addAll(CACHE_URLS);
+            })
     );
 });
 
-// Fetch event
+// Listen for the fetch event
 self.addEventListener("fetch", event => {
+    // Respond with a custom response
     event.respondWith(
-        caches.match(event.request).then(cachedResponse => cachedResponse || fetch(event.request))
+        // Check if there is a cached response for the request
+        caches.match(event.request)
+            .then(cachedResponse => {
+                // Return the cached response if there is one
+                if (cachedResponse) {
+                    return cachedResponse;
+                }
+                // Otherwise, make a network request and return the response
+                return fetch(event.request);
+            })
     );
 });
-
-// Background Sync event
-self.addEventListener('sync', event => {
-    if (event.tag == 'myFirstSync') {
-        event.waitUntil(doSomeStuff());
-    }
-});
-
-// Periodic Sync event
-self.addEventListener('periodicsync', event => {
-    if (event.tag == 'get-latest-news') {
-        event.waitUntil(fetchAndCacheLatestNews());
-    }
-});
-
-// Push Notifications event
-self.addEventListener('push', event => {
-    const title = 'Get Started With Workbox';
-    const options = { body: event.data.text() };
-    event.waitUntil(self.registration.showNotification(title, options));
-});
-
-// Background Sync function
-async function doSomeStuff() {
-    // Your code here. For example, you might want to retry failed requests.
-}
-
-// Periodic Sync function
-async function fetchAndCacheLatestNews() {
-    const response = await fetch('https://api.example.com/latest-news');
-    const news = await response.json();
-    const cache = await caches.open(CACHE_NAME);
-    await cache.put('mostafasensei106.github.io/Sensei/JS/manifest.json\n' +
-        '\n', new Response(JSON.stringify(news)));
-}
