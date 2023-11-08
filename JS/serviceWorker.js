@@ -4,7 +4,7 @@ importScripts('https://storage.googleapis.com/workbox-cdn/releases/6.1.5/workbox
 if (workbox) {
     console.log(`Workbox is loaded`);
 
-    // Precache files
+    // Cash files
     workbox.precaching.precacheAndRoute([
         "../index.html",
         "../css_files",
@@ -30,7 +30,7 @@ if (workbox) {
     });
 
     // Add background sync
-    const bgSyncPlugin = new workbox.backgroundSync.BackgroundSyncPlugin('myQueueName', {
+    const bgSyncPlugin = new workbox.backgroundSync.BackgroundSyncPlugin('Sync', {
         maxRetentionTime: 24 * 60
     });
 
@@ -42,7 +42,7 @@ if (workbox) {
         'POST'
     );
 
-    // Add push notifications
+    //push notifications
     self.addEventListener('push', (event) => {
         const title = 'Notification';
         const options = {

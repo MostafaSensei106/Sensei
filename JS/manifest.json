@@ -1,13 +1,12 @@
 {
   "name": "Mostafa Sensei",
+  "short_name": "Mostafa Sensei",
   "version": "4.7",
   "description": "  Hi I'm Mostafa Mahmoud a Programmer and a Graphic Designer",
-  "short_name": "Mostafa Sensei",
   "start_url": "../index.html",
   "display": "standalone",
   "background_color": "#fef2e2",
   "theme_color": "#fef2e2",
-
   "icons": [
     {
       "src": "../images/icons/16x16.png",
@@ -513,7 +512,10 @@
     {
       "name": "Home Page",
       "url": "../index.html",
-      "description": "Mostafa Sensei Home page"
+      "description": "Mostafa Sensei Home page",
+      "icons" : [{
+        "src" : "../ images/logo/My_Logo.webp"
+      }]
     }
   ]
 }
