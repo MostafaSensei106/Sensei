@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0eeee4fa-08b7-40a7-b32a-6a4b63258a39" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/serviceWorker.js" afterDir="false" />
-    </list>
+    <list default="true" id="0eeee4fa-08b7-40a7-b32a-6a4b63258a39" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +45,7 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/JS/main.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/JS/main.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/css_files/masterdark.css" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/css_files/masterlight.css" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/index.html" root0="SKIP_INSPECTION" />
@@ -143,23 +139,7 @@
       <workItem from="1698845802214" duration="27000" />
       <workItem from="1698851249249" duration="13871000" />
       <workItem from="1699384562999" duration="1998000" />
-      <workItem from="1699386571427" duration="8221000" />
-    </task>
-    <task id="LOCAL-00016" summary="v4.0 MH Web Page.">
-      <option name="closed" value="true" />
-      <created>1696033853004</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1696033853004</updated>
-    </task>
-    <task id="LOCAL-00017" summary="v4.0 MH Web Page.">
-      <option name="closed" value="true" />
-      <created>1696034111705</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1696034111705</updated>
+      <workItem from="1699386571427" duration="8653000" />
     </task>
     <task id="LOCAL-00018" summary="v4.0 MH Web Page.">
       <option name="closed" value="true" />
@@ -537,7 +517,23 @@
       <option name="project" value="LOCAL" />
       <updated>1699394295703</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="v4.7 MH Web Page.">
+      <option name="closed" value="true" />
+      <created>1699395167411</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1699395167411</updated>
+    </task>
+    <task id="LOCAL-00066" summary="v4.7 MH Web Page.">
+      <option name="closed" value="true" />
+      <created>1699395252349</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1699395252349</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
