@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0eeee4fa-08b7-40a7-b32a-6a4b63258a39" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/images/image_display/image_web/image-pizza.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css_files/masterdark.css" beforeDir="false" afterPath="$PROJECT_DIR$/css_files/masterdark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css_files/all.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css_files/all.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css_files/masterlight.css" beforeDir="false" afterPath="$PROJECT_DIR$/css_files/masterlight.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/image_display/image_web/Pizza_g.webp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,15 +147,7 @@
       <workItem from="1699384562999" duration="1998000" />
       <workItem from="1699386571427" duration="8653000" />
       <workItem from="1699465150467" duration="14214000" />
-      <workItem from="1699535525313" duration="12313000" />
-    </task>
-    <task id="LOCAL-00033" summary="v4.0 MH Web Page.">
-      <option name="closed" value="true" />
-      <created>1698845737311</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1698845737311</updated>
+      <workItem from="1699535525313" duration="12984000" />
     </task>
     <task id="LOCAL-00034" summary="v4.7 MH Web Page.">
       <option name="closed" value="true" />
@@ -541,7 +533,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699535605567</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="v4.7 MH Web Page.">
+      <option name="closed" value="true" />
+      <created>1699548888711</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1699548888711</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
