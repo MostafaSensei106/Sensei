@@ -123,7 +123,7 @@ $(document).on("click", function (e) {
 });
 
 setInitialTheme();
-setInterval(nextSlide, 3e3);
+setInterval(nextSlide, 4e3);
 
 window.onscroll = function () {
     var scrollPercent = (window.scrollY / (document.body.scrollHeight - window.innerHeight)) * 100;
