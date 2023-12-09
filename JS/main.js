@@ -122,8 +122,6 @@ $(document).on("click", function (e) {
     }
 });
 
-
-// Initial Calls
 setInitialTheme();
 setInterval(nextSlide, 3e3);
 
