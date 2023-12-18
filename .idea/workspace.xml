@@ -7,7 +7,7 @@
     <list default="true" id="0eeee4fa-08b7-40a7-b32a-6a4b63258a39" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css_files/masterlight.css" beforeDir="false" afterPath="$PROJECT_DIR$/css_files/masterlight.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +89,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -154,22 +155,9 @@
       <workItem from="1701464071442" duration="1210000" />
       <workItem from="1701528179743" duration="85000" />
       <workItem from="1702070167171" duration="55000" />
-    </task>
-    <task id="LOCAL-00036" summary="v4.7 MH Web Page.">
-      <option name="closed" value="true" />
-      <created>1698877654613</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1698877654613</updated>
-    </task>
-    <task id="LOCAL-00037" summary="v4.7 MH Web Page.">
-      <option name="closed" value="true" />
-      <created>1698878346281</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1698878346281</updated>
+      <workItem from="1702114725003" duration="504000" />
+      <workItem from="1702922016794" duration="329000" />
+      <workItem from="1702922634662" duration="366000" />
     </task>
     <task id="LOCAL-00038" summary="v4.7 MH Web Page.">
       <option name="closed" value="true" />
@@ -547,7 +535,23 @@
       <option name="project" value="LOCAL" />
       <updated>1699550492969</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="v4.7 MH Web Page.">
+      <option name="closed" value="true" />
+      <created>1702114745393</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1702114745394</updated>
+    </task>
+    <task id="LOCAL-00086" summary="v4.7 MH Web Page.">
+      <option name="closed" value="true" />
+      <created>1702114819737</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1702114819737</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

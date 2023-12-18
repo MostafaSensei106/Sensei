@@ -105,9 +105,9 @@ $(document).on("click", function (e) {
     if ($(e.target).hasClass("toggle_mu")) {
         if ($(".ul-2").css("display") === "none") {
             $(".ul-2").css("display", "block");
-            $(".toggle_mu + .menu .bar1").css({"transform": "translateY(10px) rotate(45deg)"});
+            $(".toggle_mu + .menu .bar1").css({"transform": "translateY(12px) rotate(45deg)"});
             $(".toggle_mu + .menu .bar2").css({"opacity": "0"});
-            $(".toggle_mu + .menu .bar3").css({"transform": "translateY(-14px) rotate(-45deg)"});
+            $(".toggle_mu + .menu .bar3").css({"transform": "translateY(-12px) rotate(-45deg)"});
         } else {
             $(".ul-2").css("display", "none");
             $(".toggle_mu + .menu .bar1").css({"transform": ""});
@@ -123,7 +123,7 @@ $(document).on("click", function (e) {
 });
 
 setInitialTheme();
-setInterval(nextSlide, 4e3);
+setInterval(nextSlide, 3e3);
 
 window.onscroll = function () {
     var scrollPercent = (window.scrollY / (document.body.scrollHeight - window.innerHeight)) * 100;
