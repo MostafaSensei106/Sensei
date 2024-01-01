@@ -34,6 +34,7 @@ function toggleDarkMode() {
     localStorage.setItem("theme", newTheme);
 }
 
+
 function skills() {
     if (flag) {
         $(".skill-per").each(function () {
