@@ -1,0 +1,110 @@
+.About .about-content {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+
+
+.About .about-content .pre-image {
+    position: relative;
+    width: 540px;
+    height: auto
+}
+
+.About .about-content .pre-image img {
+    max-width: 100%;
+    border-radius: 1%
+}
+
+.About .about-content .text {
+    -ms-flex-preferred-size: calc(100% - 555px);
+    flex-basis: calc(100% - 555px);
+    margin-top: -9px
+}
+
+.About .about-content .text h1 {
+    margin-bottom: -6px;
+    font-weight: 700
+}
+
+.About .about-content .text h2 {
+    margin-top: 15px;
+    font-weight: 700;
+    margin-bottom: 18px
+}
+
+.About .about-content .text hr {
+    display: none;
+    width: 50%;
+    border-color: #0d1d23
+}
+
+.About .about-content .text p {
+    color: #284950;
+    margin-top: -6px;
+    font-weight: 700;
+    font-size: 25px;
+    text-justify: inter-word;
+    text-align: -moz-left
+}
+
+@media (max-width: 996px) {
+    .About .about-content {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column
+    }
+
+    .About .about-content .pre-image {
+        max-width: 100%;
+        margin: 0 auto 20px
+    }
+
+    .About .about-content .text {
+        font-size: 10px;
+        font-weight: bolder
+    }
+
+    .About .about-content .text h1 {
+        text-align: center;
+        font-size: 32px;
+        margin: 0;
+        padding: 0
+    }
+
+    .About .about-content .text h2 {
+        font-size: 18px;
+        text-align: center
+    }
+
+    .About .about-content .text hr {
+        width: 50%;
+        display: inline-block;
+        border-color: #0d1d23
+    }
+
+    @media (max-width: 996px) {
+        .About .about-content .text hr {
+            display: none
+        }
+    }.About .about-content .text p {
+         font-size: 18px;
+         color: #284950
+     }
+}
+
+@media (max-width: 768px) {
+    .About .about-content .text .about-t {
+        text-align: center
+    }
+}
+
+.About, .knowledge, .language, .my-Skills {
+    padding-top: 93px;
+    margin-top: 27px
+}

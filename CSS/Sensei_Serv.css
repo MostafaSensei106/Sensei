@@ -1,0 +1,51 @@
+
+.services {
+    margin-top: 20px;
+    padding-top: 93px
+}
+
+.services .services-content {
+    text-align: center;
+    margin-top: 55px;
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 30px
+}
+
+.services .services-content .service {
+    display: flex;
+    margin-bottom: 40px
+}
+
+
+.services .services-content .service i {
+    color: #2f5874;
+    -ms-flex-preferred-size: 60px;
+    flex-basis: 60px
+}
+
+.services .services-content .service .text {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1
+}
+
+.services .services-content .text h4 {
+    color: #0d1d23;
+    margin-top: -19px
+}
+
+.services .services-content .text h3 {
+    color: #0d1d23;
+    font-size: 25px;
+    margin: 0 0 20px
+}
+
+.services .services-content .text p {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 17px;
+    color: #284950;
+    font-weight: 300;
+    line-height: 1.6
+}

@@ -1,0 +1,77 @@
+
+.landing .text-hi h1, .language .lang .jp-h3, .services .services-content .text h3, .sp_header, body.dark, body.light {
+    font-family: 'Yuji Syuku', serif
+}
+
+.landing {
+    background-color: rgba(26, 27, 38, .4);
+    width: 100vw;
+    height: 100vh
+}
+
+.landing .text-hi {
+    text-shadow: -3px 3px 7px #1a1b26;
+    width: 600px;
+    max-width: 100%;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
+.landing .text-hi h1 {
+    text-shadow: #1a1b26;
+    font-weight: 700;
+    font-size: 80px;
+    color: #02b7d0;
+    margin: 0
+}
+
+
+
+.landing .go-down {
+    color: #02b7d0;
+    width: 20px;
+    font-size: 60px;
+    position: absolute;
+    bottom: -210px;
+    left: 46%;
+    -webkit-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);
+    -webkit-animation: 1.5s infinite bons;
+    animation: 1.5s infinite bons
+}
+
+@-webkit-keyframes bons {
+    0%, 10%, 100%, 20%, 50%, 80% {
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%)
+    }
+    40%, 60% {
+        -webkit-transform: translateY(-40px);
+        transform: translateY(-40px)
+    }
+}
+
+@keyframes bons {
+    0%, 10%, 100%, 20%, 50%, 80% {
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%)
+    }
+    40%, 60% {
+        -webkit-transform: translateY(-40px);
+        transform: translateY(-40px)
+    }
+}
+
+.landing .text-hi p {
+    text-align: center;
+    font-weight: 700;
+    color: #fbfbfb;
+    font-size: 30px;
+    line-height: 1.8
+}

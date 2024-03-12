@@ -1,0 +1,55 @@
+
+.contact-me .info-me {
+    padding-bottom: 40px;
+    text-align: center
+}
+
+.contact-me .info-me .link-me:hover {
+    color: #e7eefb;
+}
+
+.contact-me .info-me .link-me {
+    font-size: 27px;
+    font-weight: 800;
+    text-decoration: none;
+    color: #05b6cf;
+    -webkit-transition: color .2s;
+    -o-transition: color .2s;
+    transition: color .2s
+}
+
+
+
+.contact-me .sp_header {
+    color: #e7eefb;
+}
+
+.contact-me p {
+    color: #e7eefb;
+}
+
+.contact-me .info-me .social {
+    font-weight: 700;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 18px
+}
+
+.contact-me .info-me .social i {
+    margin-left: 15px;
+    font-size: 20px;
+    color: #05b5ce;
+    transition: .2s
+}
+
+.contact-me .info-me .social i:hover {
+    -webkit-transform: translateY(-4px);
+    -ms-transform: translateY(-4px);
+    transform: translateY(-4px);
+    color: #e7eefb
+}

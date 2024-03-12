@@ -7,9 +7,9 @@ if (workbox) {
     // Cache files
     workbox.precaching.precacheAndRoute([
         "../index.html",
-        "../css_files/*.css",
+        "../CSS/*.css",
         "*.js",
-        "../images/*"
+        "../Images/*"
     ]);
 
     // Use a stale-while-revalidate strategy for all other requests.

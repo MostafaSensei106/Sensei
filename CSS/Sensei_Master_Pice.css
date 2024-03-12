@@ -1,0 +1,15 @@
+
+.knowledge .knowledge-content {
+    text-align: center;
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns:repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 30px
+}
+
+.knowledge .container .knowledge-content p {
+    color: #2f5975;
+    font-size: 25px;
+    margin: 45px 0;
+    font-weight: 700
+}

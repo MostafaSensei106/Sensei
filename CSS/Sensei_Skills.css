@@ -1,0 +1,75 @@
+
+.skills {
+    width: 100%;
+    max-width: 100%
+}
+
+.my-Skills .container .skills .skill h3 {
+    padding-top: 23px;
+    font-size: 19px;
+    color: #0d1d23;
+    font-weight: 700;
+    font-family: 'Yuji Syuku', serif;
+    margin: 0
+}
+
+.my-Skills .container .skills .skill h4 {
+    font-size: 17px;
+    margin: 0
+}
+
+.skill-name {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 20px 0
+}
+
+.skill-bar {
+    height: 20px;
+    background: #315977a3;
+    border-radius: 6px
+}
+
+.skill-per {
+    height: 20px;
+    background: #322b42;
+    /*background: -o-linear-gradient(left, #322b42 0, #02b7d0 100%);*/
+    /*background: -webkit-gradient(linear, left top, right top, color-stop(0, #322b42), to(#02b7d0));*/
+    background: linear-gradient(90deg, #322b42 0, #02b7d0 100%);
+    border-radius: 6px;
+    width: 0;
+    -webkit-transition: 1s linear;
+    -o-transition: 1s linear;
+    transition: 1s linear
+}
+
+.skill-per:before {
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background-color: #2f5874;
+    color: #fbfbfb;
+    font-weight: 700;
+    font-size: 12px;
+    border-radius: 6px;
+    top: -35px;
+    right: 0;
+    -webkit-transform: translateX(50%);
+    -ms-transform: translateX(50%);
+    transform: translateX(50%)
+}
+
+.skill-per:after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #0d1d23;
+    top: -16px;
+    right: 0;
+    -webkit-transform: translateX(50%) rotate(45deg);
+    -ms-transform: translateX(50%) rotate(45deg);
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 6px
+}

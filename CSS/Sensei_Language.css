@@ -1,0 +1,47 @@
+
+.language .container-1, .services .services-content {
+    display: -ms-grid;
+    grid-template-columns:repeat(auto-fill, minmax(300px, 1fr))
+}
+
+
+.language .container .h2, .language .container .lp, .skills {
+    display: inline-block
+}
+
+
+
+
+.language .container-1 {
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 20px
+}
+
+.language .lang {
+    padding: 20px;
+    text-align: center
+}
+
+.language .lang i {
+    font-size: 35px;
+    color: #2f5975
+}
+
+.language .lang h3 {
+    color: #0d1d23;
+    font-weight: 800;
+    margin: 45px 0
+}
+
+.language .lang .ar-h3 {
+    font-family: "Noto Nastaliq Urdu", serif
+}
+
+.language .lang p {
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.8;
+    color: #284950;
+    font-size: 17px
+}
