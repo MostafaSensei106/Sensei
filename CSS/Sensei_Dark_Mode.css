@@ -77,6 +77,10 @@ body.dark #dark-mode, body.dark .skill-per:before {
     color: #16161e
 }
 
+body.dark #dark-mode i{
+    color: #1a1b26;
+}
+
 body.dark #dark-mode:hover, body.dark .skill-per:after {
     background-color: #e0af68
 }

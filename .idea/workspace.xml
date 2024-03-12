@@ -4,95 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0eeee4fa-08b7-40a7-b32a-6a4b63258a39" name="Changes" comment="v4.7 MH Web Page.">
-      <change afterPath="$PROJECT_DIR$/CSS/Sensei_About_Leg.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/Sensei_Art_Gallary.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/Sensei_Contact.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/Sensei_Dark_Mode.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/Sensei_Footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/Sensei_Land_Slider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/Sensei_Landing_Section.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/Sensei_Language.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/Sensei_Master.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/Sensei_Master_Pice.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/Sensei_Serv.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/Sensei_Skills.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/Sensei_WebHeader.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/Sensei_Web_Body.css" afterDir="false" />
+    <list default="true" id="0eeee4fa-08b7-40a7-b32a-6a4b63258a39" name="Changes" comment="v5.0 MH Web Page.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/serviceWorker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css_files/all.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/all.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css_files/lightbox.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/lightbox.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css_files/masterdark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css_files/masterlight.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css_files/normal.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/Sensei_Normal.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css_files/slide.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/background_images/bac-3.webp" beforeDir="false" afterPath="$PROJECT_DIR$/Images/background_images/bac-3.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/background_images/back-00.webp" beforeDir="false" afterPath="$PROJECT_DIR$/Images/background_images/back-00.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/background_images/back-001.webp" beforeDir="false" afterPath="$PROJECT_DIR$/Images/background_images/back-001.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/background_images/back-1.webp" beforeDir="false" afterPath="$PROJECT_DIR$/Images/background_images/back-1.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/background_images/back-2.webp" beforeDir="false" afterPath="$PROJECT_DIR$/Images/background_images/back-2.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/background_images/back-4.webp" beforeDir="false" afterPath="$PROJECT_DIR$/Images/background_images/back-4.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/close.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/close.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/120x120.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/icons/120x120.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/128x128.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/icons/128x128.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/144x144.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/icons/144x144.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/152x152.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/icons/152x152.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/icons/16x16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/180x180.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/icons/180x180.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/icons/192x192.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/icons/32x32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/384x384.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/icons/384x384.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/512x512.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/icons/512x512.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/72x72.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/icons/72x72.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/96x96.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/icons/96x96.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_display/Demon_Slayer.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Images/image_display/Demon_Slayer.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_display/Free Palestine.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/image_display/Free Palestine.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_display/Hema-chan.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/image_display/Hema-chan.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_display/Kawaki_2Bv.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/image_display/Kawaki_2Bv.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_display/MH444.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/image_display/MH444.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_display/MH45.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/image_display/MH45.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_display/MHlogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/image_display/MHlogo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_display/Moon_sord.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Images/image_display/Moon_sord.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_display/Moon_wt.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Images/image_display/Moon_wt.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_display/Mostafa.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Images/image_display/Mostafa.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_display/Pizza_G.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Images/image_display/Pizza_G.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_display/Sarada_art.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Images/image_display/Sarada_art.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_display/gojo_sensei.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Images/image_display/gojo_sensei.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_display/image_web/Demon_Slayer.webp" beforeDir="false" afterPath="$PROJECT_DIR$/Images/image_display/image_web/Demon_Slayer.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_display/image_web/Free Palestine.webp" beforeDir="false" afterPath="$PROJECT_DIR$/Images/image_display/image_web/Free Palestine.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_display/image_web/Hema-chan.webp" beforeDir="false" afterPath="$PROJECT_DIR$/Images/image_display/image_web/Hema-chan.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_display/image_web/Kawaki_2Bv.webp" beforeDir="false" afterPath="$PROJECT_DIR$/Images/image_display/image_web/Kawaki_2Bv.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_display/image_web/MH43.webp" beforeDir="false" afterPath="$PROJECT_DIR$/Images/image_display/image_web/MH43.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_display/image_web/MH444.webp" beforeDir="false" afterPath="$PROJECT_DIR$/Images/image_display/image_web/MH444.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_display/image_web/MH45.webp" beforeDir="false" afterPath="$PROJECT_DIR$/Images/image_display/image_web/MH45.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_display/image_web/MHlogo.webp" beforeDir="false" afterPath="$PROJECT_DIR$/Images/image_display/image_web/MHlogo.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_display/image_web/Moon_sord.webp" beforeDir="false" afterPath="$PROJECT_DIR$/Images/image_display/image_web/Moon_sord.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_display/image_web/Moon_wt.webp" beforeDir="false" afterPath="$PROJECT_DIR$/Images/image_display/image_web/Moon_wt.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_display/image_web/Mostafa.webp" beforeDir="false" afterPath="$PROJECT_DIR$/Images/image_display/image_web/Mostafa.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_display/image_web/Sarada_art.webp" beforeDir="false" afterPath="$PROJECT_DIR$/Images/image_display/image_web/Sarada_art.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_display/image_web/gojo_sensei.webp" beforeDir="false" afterPath="$PROJECT_DIR$/Images/image_display/image_web/gojo_sensei.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_display/image_web/image-pizza.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Images/image_display/image_web/image-pizza.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_display/image_web/kawaki.webp" beforeDir="false" afterPath="$PROJECT_DIR$/Images/image_display/image_web/kawaki.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_display/image_web/logo_hg.webp" beforeDir="false" afterPath="$PROJECT_DIR$/Images/image_display/image_web/logo_hg.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_display/image_web/maki.webp" beforeDir="false" afterPath="$PROJECT_DIR$/Images/image_display/image_web/maki.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_display/image_web/red_g.webp" beforeDir="false" afterPath="$PROJECT_DIR$/Images/image_display/image_web/red_g.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_display/image_web/rev_brt.webp" beforeDir="false" afterPath="$PROJECT_DIR$/Images/image_display/image_web/rev_brt.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_display/image_web/sakura.webp" beforeDir="false" afterPath="$PROJECT_DIR$/Images/image_display/image_web/sakura.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_display/kawaki.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Images/image_display/kawaki.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_display/logo_hg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Images/image_display/logo_hg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_display/maki.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Images/image_display/maki.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_display/mh44.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Images/image_display/mh44.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_display/red_g.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Images/image_display/red_g.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_display/rev_brt.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Images/image_display/rev_brt.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_display/sakura.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Images/image_display/sakura.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/loading.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Images/loading.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo/My_Logo.webp" beforeDir="false" afterPath="$PROJECT_DIR$/Images/logo/My_Logo.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/next.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/next.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pre-loder-2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Images/pre-loder-2.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pre-loder.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Images/pre-loder.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/prev.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/prev.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/Sensei_Contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/Sensei_Contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/Sensei_Dark_Mode.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/Sensei_Dark_Mode.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/Sensei_Master.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/Sensei_Master.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,15 +164,7 @@
       <workItem from="1704114870746" duration="252000" />
       <workItem from="1704115138185" duration="1031000" />
       <workItem from="1704116364082" duration="8000" />
-      <workItem from="1710249593906" duration="5952000" />
-    </task>
-    <task id="LOCAL-00039" summary="v4.7 MH Web Page.">
-      <option name="closed" value="true" />
-      <created>1698878804982</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1698878804982</updated>
+      <workItem from="1710249593906" duration="7631000" />
     </task>
     <task id="LOCAL-00040" summary="v4.7 MH Web Page.">
       <option name="closed" value="true" />
@@ -642,7 +550,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702923089325</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="v5.0 MH Web Page.">
+      <option name="closed" value="true" />
+      <created>1710255607834</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1710255607834</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -653,7 +569,8 @@
     <MESSAGE value=" v3.7 MH Web Page." />
     <MESSAGE value="v4.0 MH Web Page." />
     <MESSAGE value="v4.7 MH Web Page." />
-    <option name="LAST_COMMIT_MESSAGE" value="v4.7 MH Web Page." />
+    <MESSAGE value="v5.0 MH Web Page." />
+    <option name="LAST_COMMIT_MESSAGE" value="v5.0 MH Web Page." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
