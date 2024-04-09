@@ -4,10 +4,7 @@
 
 }
 
-body.light {
-    background-color: rgba(122, 162, 247, .16);
-    transition: .2s
-}
+
 
 body.light #line {
     position: absolute;
